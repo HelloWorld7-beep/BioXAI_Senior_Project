@@ -1,0 +1,22 @@
+.nav-box {
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #B0B0B0;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: #8F7FEE;
+    font-size: 1.2rem;
+}
+
+.nav-link.active {
+  color: #8F7FEE;
+}
