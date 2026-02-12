@@ -1,0 +1,39 @@
+.cta {
+  margin-top: 0;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  background: radial-gradient(
+    circle at 30% 30%,
+    #9f8cff,
+    #7e6de3
+  );
+
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+
+  box-shadow:
+    0 0 0 12px rgba(143,127,238,0.25),
+    0 0 0 24px rgba(143,127,238,0.1);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.cta:hover {
+  transform: scale(1.1);
+  box-shadow:
+    0 0 0 20px rgba(143, 127, 238, 0.4),
+    0 0 20px 20px rgba(143, 127, 238, 0.2);
+  filter: brightness(1.1);
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 20px rgba(143, 127, 238, 0.4); }
+  50% { box-shadow: 0 0 0 30px rgba(143, 127, 238, 0.6); }
+}
