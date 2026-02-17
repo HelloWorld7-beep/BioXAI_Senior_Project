@@ -95,8 +95,8 @@ html, body {
   margin-top: 40px;
   width: 85%;
   text-align: center;
-  height: 80%;
-  border-radius: 50px;
+  height: 90%;
+  border-radius: 40px;
   transform: scale(0.9);
   font-size: 0.9rem;
 }

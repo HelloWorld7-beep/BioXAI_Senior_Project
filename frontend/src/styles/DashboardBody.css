@@ -110,3 +110,28 @@
 .card-body {
   flex: 1;
 }
+
+.protein-header {
+  display: flex;
+  flex-direction: row; /* Stacking them makes scrolling easier to manage */
+  gap: 0.5rem;
+  margin-bottom: 0;
+}
+
+.info {
+  display: block;
+  font-size: 0.9rem;
+  color: #888;
+  white-space: nowrap;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  padding-bottom: 4px; /* Space for the scrollbar */
+}
+
+/* Optional: Make the scrollbar thin and clean */
+.info::-webkit-scrollbar {
+  height: 4px;
+}
+.info::-webkit-scrollbar-thumb {
+  background: #cfcfcf;
+  border-radius: 10px;
+}

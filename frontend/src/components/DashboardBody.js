@@ -43,8 +43,12 @@ function DashboardBody({ title, subTitle, children }) {
 
                         {/* Shared System Info */}
                         <div className="protein-header">
-                            <span className="info">Protein: {protein || "—"}</span>
-                            <span className="info">Mutation: {mutation || "—"}</span>
+                            <span className="info" title={protein}>
+                                Protein: {protein?.length > 5 ? `${protein.slice(0, 5)}...` : (protein || "—")}
+                            </span>
+                            <span className="info" title={mutation}>
+                                Mutation: {mutation?.length > 5 ? `${mutation.slice(0, 5)}...` : (mutation || "—")}
+                            </span>
                         </div>
 
                         <div className="card-body">

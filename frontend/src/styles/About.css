@@ -1,0 +1,63 @@
+.about-page-container {
+    width: 100%;
+    min-height: 100dvh;
+    background-color: #F5F5F5; /* Matches your outer body background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 1200px;
+    width: 90%;
+    padding: 2rem 0;
+}
+
+.about-section h2 {
+    color: #8F7FEE; /* Your signature purple */
+    margin-bottom: 1rem;
+}
+
+.about-grid {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    flex: 1;
+    min-width: 300px;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+
+.grid-item h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.grid-item ul {
+    padding-left: 1.2rem;
+    color: #555;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 2rem 0;
+}
+
+.team-section {
+    text-align: center;
+    color: #595959;
+}
+
+.university-tag {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+}
