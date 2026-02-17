@@ -15,7 +15,7 @@ function AnalysisResult() {
     return (
         <div className='body'>
             <Navbar/>
-            <DashboardBody title={"XAI Dashboard"} 
+            <DashboardBody title={"Results Dashboard"} 
                 subTitle={"Summary"} 
                 buttonName={"Previous Visuals"} 
                 options={items}

@@ -1,55 +1,71 @@
 .dashboard-body-container {
-    width: 100%;
-    min-height: calc(100vh - 3.5rem);
-    align-items: flex-start;
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
+  width: 100%;
+  min-height: calc(100vh - var(--nav-height)); /* full viewport minus top nav */
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 0px;   /* outer breathing room; tweak to taste */
+  margin-top: 0px;
+  overflow: hidden;         /* prevent outer scrolling from small overflow */
+  background-color: rgb(255, 255, 255);
 }
 
 .dashboard-body {
-    width: 95%;
-    min-height: 70vh;
-    align-items: stretch;
-    margin-top: 1rem;
-    background-color: #E7E7E7;
-    border-radius: 50px;
-    display: flex;
-    padding: 2rem;
+  max-width: var(--site-max-width);
+  width: 100%;
+  min-height: 70vh;
+  background-color: #ffffff;   /* outer frame color (debug) */
+  border-radius: 50px;
+  display: flex;
+  padding: 0;                  /* <-- remove internal padding so children align flush */
+  overflow: hidden;            /* hide rounded-corner gaps */
+  margin-top: 0px;
+  margin-bottom: 1rem;
 }
 
 .dash-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;               /* enables children to stretch in flex layouts */
+  background-color: #E7E7E7; 
+  padding: 1.75rem;            /* create the inner spacing for the content side */
+  box-sizing: border-box;
 }
 
 .dash-title {
   font-size: 1.6rem;
-  height: 2rem;
   display: flex;
   align-items: center;
   width: 100%;
-  padding-bottom: 20px;
+  margin-bottom: 0.75rem;   /* prefer margin over fixed height */
+  padding-left: 0.25rem;
+  padding: 1.5rem 0 0 2rem;
 }
 
 .dash-card {
+    flex: 1;              /* this makes it stretch */
     width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #FFFFFF;
     border-radius: 50px;
+    padding: 1.75rem 2.5rem;  /* inner spacing so content doesn't hug edges */
+    box-sizing: border-box;
 }
 
 .card-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-right: 35px;
-    padding-top: 2.5rem;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 0;               /* card already has padding */
 }
 
 .card-title {
-    padding-left: 5%;
+    /* remove percentage padding-left; use consistent spacing inside card */
     color: #8F7FEE;
     font-size: 1.4rem;
     font-weight: 600;
@@ -61,11 +77,9 @@
 }
 
 .card-select select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  /* keep these but ensure box-sizing so width behaves */
+  box-sizing: border-box;
   border: 2px solid #cfcfcf;
-  padding: 0.9rem 5.2rem 0.9rem 1.6rem;
   border-radius: 30px;
   font-size: 0.8rem;
   line-height: 1.2;
@@ -77,8 +91,7 @@
 
 .card-select .select-wrapper::after {
   content: "";
-  position: absolute;
-  right: 10px;
+  right: 30px;
   top: 50%;
   transform: translateY(-50%);
   width: 14px;
@@ -92,4 +105,8 @@
 .card-select select:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.12);
+}
+
+.card-body {
+  flex: 1;
 }

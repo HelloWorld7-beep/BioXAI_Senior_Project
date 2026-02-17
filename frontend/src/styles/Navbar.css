@@ -1,20 +1,24 @@
 .nav-box {
-    margin-top: 1.2rem;
-    display: flex;
-    justify-content: center;
-    gap: 10rem;
+  max-width: var(--site-max-width);
+  width: 100%;
+  margin: 1.2rem auto;   /* center horizontally on page */
+  display: flex;
+  justify-content: center;
+  gap: clamp(1rem, 6vw, 6rem);  /* responsive gap: small on small screens, larger on wide screens */
+  align-items: center;
+  padding: 0 var(--site-padding); /* prevent edge collisions on very small screens */
 }
 
 .nav-link {
-    text-decoration: none;
-    color: #B0B0B0;
-    font-size: 1.2rem;
+  text-decoration: none;
+  color: #B0B0B0;
+  font-size: 1rem;
+  transition: color .15s ease;
 }
 
 .nav-link:hover {
     text-decoration: none;
     color: #8F7FEE;
-    font-size: 1.2rem;
 }
 
 .nav-link.active {

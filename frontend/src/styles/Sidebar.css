@@ -1,16 +1,16 @@
 .dash-nav {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    gap: 20px;
-    margin-right: 2%;
+  width: 300px;      /* fixed size */
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #E7E7E7;
+  margin: 0;          /* ensure no extra margin creates a stripe */
+  padding: 1rem;  /* vertical breathing room inside the sidebar */
 }
 
 .spacer {
     height: 3rem;
-    width: 80%;
 }
 
 .dash-link {

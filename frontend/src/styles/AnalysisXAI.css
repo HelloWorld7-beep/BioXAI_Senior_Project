@@ -8,7 +8,6 @@ html, body {
 * { box-sizing: border-box; }
 
 .card-container {
-    width: 80%;
     margin-left: 10%;
     margin-top: 3%;
 }
@@ -27,8 +26,8 @@ html, body {
     background-color: #E7E7E7;
     opacity: .7;
     width: 100%;
-    height: 60vh;
-    border-radius: 80px;
+    height: 100%;
+    border-radius: 40px;
     outline: 2px solid #B0B0B0;
     display: flex;
 }
@@ -49,6 +48,7 @@ html, body {
   line-height: 1.2;
   cursor: pointer;
   color: #595959;
+  transform: scale(0.9);
 }
 
 .card-select .select-wrapper::after {
@@ -80,12 +80,12 @@ html, body {
 
 .RenderContent {
   background-color: #FFFFFF;
-  width: 39vw;
+  width: 37vw;
   height: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 60px;
+  border-radius: 50px;
   margin-top: 1.5vh;
 }
 
@@ -97,11 +97,13 @@ html, body {
   text-align: center;
   height: 80%;
   border-radius: 50px;
+  transform: scale(0.9);
+  font-size: 0.9rem;
 }
 
 .legend-title {
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .entry {
@@ -112,7 +114,7 @@ html, body {
 
 .entry-level {
   text-align: left;
-  margin-left: 50px;
+  margin-left: 30px;
   font-weight: 700;
   color: #B0B0B0;
 }
@@ -123,7 +125,7 @@ html, body {
   background-color: #ffc6c657;
   border-radius: 10px;
   margin-left: 50px;
-  outline: solid 3px #B0B0B0;
+  outline: solid 2px #B0B0B0;
 }
 
 .entry-bubble-2 {
@@ -132,7 +134,7 @@ html, body {
   background-color: #ffc6c6ca;
   border-radius: 10px;
   margin-left: 50px;
-  outline: solid 3px #B0B0B0;
+  outline: solid 2px #B0B0B0;
 }
 
 .entry-bubble-3 {
@@ -141,7 +143,7 @@ html, body {
   background-color: #DEDAFF;
   border-radius: 10px;
   margin-left: 50px;
-  outline: solid 3px #B0B0B0;
+  outline: solid 2px #B0B0B0;
 }
 
 .entry-bubble-4 {
@@ -150,5 +152,5 @@ html, body {
   background-color: #6631d787;
   border-radius: 10px;
   margin-left: 50px;
-  outline: solid 3px #B0B0B0;
+  outline: solid 2px #B0B0B0;
 }
