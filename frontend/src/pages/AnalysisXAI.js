@@ -37,7 +37,7 @@ function AnalysisXAI() {
                                     value={selectedMethod}
                                     onChange={(e) => setSelectedMethod(e.target.value)}
                                 >
-                                    <option value="">XAI Method Selector</option>
+                                    <option value="">XAI Method</option>
                                     {methods.map((method) => (
                                         <option key={method} value={method}>
                                             {method}

@@ -7,10 +7,18 @@ function DashboardBody({ title, subTitle, children }) {
     const {
         protein,
         mutation,
-        runs,
+        runsByProtein,
         selectedRunId,
         selectRun
     } = useContext(AnalysisContext);
+
+    const allRuns = Object.entries(runsByProtein).flatMap(
+    ([proteinKey, runs]) =>
+        runs.map(run => ({
+        ...run,
+        protein: proteinKey
+        }))
+    );
 
     return (
         <div className="dashboard-body-container">
@@ -31,7 +39,7 @@ function DashboardBody({ title, subTitle, children }) {
                                     onChange={(e) => selectRun(e.target.value)}
                                     >
                                     <option value="">Previous Inputs</option>
-                                    {runs.map(run => (
+                                    {allRuns.map(run => (
                                         <option key={run.id} value={run.id}>
                                         {run.protein} - {run.mutation}
                                         </option>
@@ -40,7 +48,7 @@ function DashboardBody({ title, subTitle, children }) {
                                 </div>
                             </div>
                         </div>
-
+                        
                         {/* Shared System Info */}
                         <div className="protein-header">
                             <span className="info" title={protein}>
