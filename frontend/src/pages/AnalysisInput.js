@@ -1,34 +1,52 @@
-import { useState } from 'react';
-import '../styles/AnalysisInput.css';
-import Navbar from '../components/Navbar';
-import DashboardBody from '../components/DashboardBody';
+import { useContext } from "react";
+import Navbar from "../components/Navbar";
+import DashboardBody from "../components/DashboardBody";
+import { AnalysisContext } from "../AnalysisContext";
 
 function AnalysisInput() {
-      const [items, setItems] = useState([
-        "Run 1",
-        "Run 2",
-        "Run 3"
-    ]);
+  const {
+    protein,
+    setProtein,
+    mutation,
+    setMutation,
+    addRun
+  } = useContext(AnalysisContext);
 
-    const [selected, setSelected] = useState("");
-    
-    return (
-        <div className='body'>
-            <Navbar/>
-            <DashboardBody title={"XAI Dashboard"} 
-                subTitle={"Summary"} 
-                buttonName={"Previous Visuals"} 
-                options={items}
-                value={selected}
-                onChange={setSelected}
-                content={
-                    <div>
-                        Component Goes Here! (Check Pages Folder)
-                    </div>
-                }
-            />
+  return (
+    <div className="body">
+      <Navbar />
+
+      <DashboardBody
+        title="Analysis"
+        subTitle="Sequence Input"
+      >
+        <div className="input-container">
+          <input
+            className="text-input"
+            type="text"
+            placeholder="Protein Sequence"
+            value={protein}
+            onChange={(e) => setProtein(e.target.value)}
+          />
+
+          <input
+            className="text-input"
+            type="text"
+            placeholder="Mutation (e.g. A123V)"
+            value={mutation}
+            onChange={(e) => setMutation(e.target.value)}
+          />
+
+          <button
+            className="run-button"
+            onClick={addRun}
+          >
+            Run Mutation Scoring
+          </button>
         </div>
-    )
+      </DashboardBody>
+    </div>
+  );
 }
 
 export default AnalysisInput;
