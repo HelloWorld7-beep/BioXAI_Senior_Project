@@ -2,6 +2,7 @@ import { useContext } from "react";
 import Navbar from "../components/Navbar";
 import DashboardBody from "../components/DashboardBody";
 import { AnalysisContext } from "../AnalysisContext";
+import '../styles/AnalysisInput.css'
 
 function AnalysisInput() {
   const {
