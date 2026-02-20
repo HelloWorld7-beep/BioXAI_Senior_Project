@@ -10,7 +10,7 @@ html, body {
 .input-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers items horizontally */
+    align-items: center;
     justify-content: center;
     width: 100%;
     margin-top: 2rem;
@@ -18,11 +18,11 @@ html, body {
 
 .text-input {
     width: 100%;
-    max-width: 500px; /* Adjust to match your concept's width */
+    max-width: 500px;
     margin-top: 50px;
     padding: 1rem 1.5rem;
     border: 1.5px solid #D1D1D1;
-    border-radius: 50px; /* The "pill" look */
+    border-radius: 50px;
     font-size: 1rem;
     color: #595959;
     outline: none;

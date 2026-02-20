@@ -51,19 +51,19 @@ function AnalysisXAI() {
                             <div className='legend'>
                                 <div className='legend-title'>Importance Legend</div>
                                 <div className='entries'>
-                                    <div className='entry'>
+                                    <div className='entry-l'>
                                         <div className='entry-bubble-1'></div>
                                         <div className='entry-level'>Benign</div>
                                     </div>
-                                    <div className='entry'>
+                                    <div className='entry-l'>
                                         <div className='entry-bubble-2'></div>
                                         <div className='entry-level'>Mild</div>
                                     </div>
-                                    <div className='entry'>
+                                    <div className='entry-l'>
                                         <div className='entry-bubble-3'></div>
                                         <div className='entry-level'>Moderate</div>
                                     </div>
-                                    <div className='entry'>
+                                    <div className='entry-l'>
                                         <div className='entry-bubble-4'></div>
                                         <div className='entry-level'>Severe</div>
                                     </div>

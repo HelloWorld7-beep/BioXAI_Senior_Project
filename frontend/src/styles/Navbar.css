@@ -1,12 +1,12 @@
 .nav-box {
   max-width: var(--site-max-width);
   width: 100%;
-  margin: 1.2rem auto;   /* center horizontally on page */
+  margin: 1.2rem auto;
   display: flex;
   justify-content: center;
-  gap: clamp(1rem, 6vw, 6rem);  /* responsive gap: small on small screens, larger on wide screens */
+  gap: clamp(1rem, 6vw, 6rem);
   align-items: center;
-  padding: 0 var(--site-padding); /* prevent edge collisions on very small screens */
+  padding: 0 var(--site-padding);
 }
 
 .nav-link {

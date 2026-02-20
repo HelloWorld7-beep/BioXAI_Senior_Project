@@ -1,7 +1,7 @@
 .about-page-container {
     width: 100%;
     min-height: 100dvh;
-    background-color: #F5F5F5; /* Matches your outer body background */
+    background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@
 }
 
 .about-section h2 {
-    color: #8F7FEE; /* Your signature purple */
+    color: #8F7FEE;
     margin-bottom: 1rem;
 }
 
