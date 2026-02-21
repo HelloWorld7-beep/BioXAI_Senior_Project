@@ -1,1 +1,12 @@
-frontend/node_modules/
+#Python
+__pycache__/
+*.pyc
+
+#Virtual environments
+venv/
+backend/venv/
+
+#Large ML stuff
+*.pt
+*.pth
+*.ckpt
