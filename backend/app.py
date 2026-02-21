@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from attention_engine import get_attention_matrix
 from integrated_gradients_engine import IntegratedGradientsEngine
+import torch
+import esm
 
 app = Flask(__name__)
 CORS(app) # Allows the React frontend to talk to this Python server
@@ -46,4 +48,4 @@ def handle_integrated_gradients():
 
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True) #UPDATE - changed to allow localhost

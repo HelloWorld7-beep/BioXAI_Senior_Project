@@ -5,7 +5,7 @@ import numpy as np
 
 #Main engine behind my IG implementation
 class IntegratedGradientsEngine:
-    def __init__(self, model, alphabet, steps=50): 
+    def __init__(self, model, alphabet, steps=50):
         self.model = model #ESM (650M?)
         self.alphabet = alphabet #AA vocab i.e. token mappings
         self.steps = steps #steps = "interpolation" steps between x -> x'
@@ -38,15 +38,17 @@ class IntegratedGradientsEngine:
         baseline = torch.zeros_like(embeddings)
 
         #Compute the integrated gradients using the func
-        integrated_grads = self._integrated_gradient_func(embeddings, baseline, token_position, wt_idx, mut_idx)
+        integrated_grads = self.integrated_gradient_func(
+            embeddings, baseline, tokens, token_position, wt_idx, mut_idx
+        )
 
         residue_importance = integrated_grads.sum(dim=-1).squeeze(0) #Squeeze to remove 1st batch dim
 
         return residue_importance.detach().cpu().numpy()
-    
-    def integrated_gradient_func(self, embeddings, baseline, token_position, wt_idx, mut_idx):
 
-        
+
+    def integrated_gradient_func(self, embeddings, baseline, tokens, token_position, wt_idx, mut_idx):
+
         scaled_embeddings = [
             baseline + (float(i) / self.steps) * (embeddings - baseline) #From the paper, this is the (x’ _ alpha x (x - x’)) part
             for i in range(self.steps + 1) #For steps = 50, this creates 51 scaled embeddings from baseline to input embedding
@@ -55,13 +57,22 @@ class IntegratedGradientsEngine:
         grads = [] #List to store gradients from each scaled embedding, (batch, seq_len, embed_dim)
 
         ##Compute gradient at each step
+        embed_module = self.model.embed_tokens  # Save embedding module reference
+
         for scaled in scaled_embeddings:
             scaled = scaled.clone().detach().requires_grad_(True) #Clone and set requires_grad to True to compute gradients
 
-            #We need gradients in embeddding space, i.e. not discrete, so we pass the scaled embeddings directly to the model instead of token IDs
+            #We need gradients in embeddding space, i.e. not discrete
             #Bec tokens themselves are category labels, embeddings = data pts in R^d i.e. embedding dim space
             #Need numerical vectors of model weights, not mere labels that only represent semantically what token "is" as humans interpret it e.g. A = alanine/1
-            outputs = self.model(inputs_embeds=scaled)
+            #Instead of replacing the module, we override its forward output using a hook
+
+            def hook(module, input, output):
+                return scaled
+
+            hook_handle = embed_module.register_forward_hook(hook)
+
+            outputs = self.model(tokens)
             logits = outputs["logits"]
 
             log_probs = F.log_softmax(logits, dim=-1) #Convert raw logits (vector) to log prob (same length vect), normalize them across 20 AA
@@ -75,6 +86,8 @@ class IntegratedGradientsEngine:
             mutation_score.backward() #Get grad, PARTIAL derivative of dF/df_xi like in paper
 
             grads.append(scaled.grad.detach()) #Change shape to (steps+1, batch, seq_len, embed_dim)
+
+            hook_handle.remove()  # Remove hook after this step
 
         grads = torch.stack(grads)
 
