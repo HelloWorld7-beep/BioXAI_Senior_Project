@@ -1,0 +1,47 @@
+.dash-nav {
+  width: 300px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #E7E7E7;
+  margin: 0;
+  padding: 1rem;
+}
+
+.spacer {
+    height: 3rem;
+}
+
+.dash-link {
+    text-align: left;
+    font-size: 0.9rem;
+    width: 100%;
+    color: #B0B0B0;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 0;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+    margin-left: 10px;
+}
+
+.label {
+    margin: 0;
+    padding: 0;
+}
+
+.dash-link.active {
+    color: #595959;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
