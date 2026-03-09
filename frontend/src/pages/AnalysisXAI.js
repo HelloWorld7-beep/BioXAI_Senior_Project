@@ -2,6 +2,7 @@ import { useMemo, useState, useContext } from 'react';
 import '../styles/AnalysisXAI.css';
 import Navbar from '../components/Navbar';
 import DashboardBody from '../components/DashboardBody';
+import HeatmapGrid from '../components/HeatmapGrid';
 import { AnalysisContext } from '../AnalysisContext';
 
 function AnalysisXAI() {
@@ -12,6 +13,9 @@ function AnalysisXAI() {
 
     const run = getSelectedRun();
     const residues = run?.perResidue?.lrp ?? [];
+    const heatmapData = run?.perResidue?.heatmap ?? run?.perResidue?.heatmaps ?? run?.heatmap ?? run?.matrix ?? [];
+    const sequence = run?.protein ?? run?.sequence ?? '';
+
     const maxAbs = useMemo(
         () => residues.reduce((m, r) => Math.max(m, Math.abs(r?.score ?? 0)), 0),
         [residues]
@@ -95,14 +99,28 @@ function AnalysisXAI() {
         );
     };
 
+    const renderHeatmapView = () => {
+        if (!heatmapData.length) {
+            return (
+                <div className='RenderContent'>
+                    No heatmap data found for this run. Generate a mutation run first.
+                </div>
+            );
+        }
+
+        return (
+            <div className='RenderContent'>
+                <HeatmapGrid sequence={sequence} data={heatmapData} />
+            </div>
+        );
+    };
+
     const renderContent = () => {
         switch (selectedMethod) {
             case "LRP":
-                // Return JSX directly to avoid remounting a nested component
-                // type on every state change (which can reset scroll position).
                 return renderLRPView();
             case "Heatmaps":
-                return <div className='RenderContent'>Heatmap Visualization</div>;
+                return renderHeatmapView();
             case "Linear":
                 return <div className='RenderContent'>Linear Explanation</div>;
             default:
@@ -159,6 +177,20 @@ function AnalysisXAI() {
                                 </div>
                             </div>
                         )}
+
+                        {selectedMethod === "Heatmaps" && (
+                            <div className='legend'>
+                                <div className='legend-title'>Heatmap Info</div>
+                                <div className='entries'>
+                                    <div className='entry-l'>
+                                        <div className='entry-level'>Darker red means stronger attention between residues.</div>
+                                    </div>
+                                    <div className='entry-l'>
+                                        <div className='entry-level'>Hover over a square to see the residue pair and score.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
                     </div>
 
                     <div className="xai-card-content">
@@ -170,7 +202,5 @@ function AnalysisXAI() {
         </div>
     );
 }
-
-
 
 export default AnalysisXAI;

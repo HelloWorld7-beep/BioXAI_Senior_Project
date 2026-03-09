@@ -4,28 +4,25 @@ import { createContext, useState } from "react";
 export const AnalysisContext = createContext();
 
 export const AnalysisProvider = ({ children }) => {
-  const [protein, setProtein]   = useState("");
+  const [protein, setProtein] = useState("");
   const [mutation, setMutation] = useState("");
 
   const [runsByProtein, setRunsByProtein] = useState({});
   const [selectedRunId, setSelectedRunId] = useState("");
 
-  // -------------------------------------------------------------------------
-  // addRun: now accepts lrpData in addition to the existing four arguments
-  // -------------------------------------------------------------------------
   const addRun = (
     embeddingDistance,
     logLikelihood,
     perResidueLogShift,
     perResidueEmbedShift,
-    lrpData = null          // ← new: array from /lrp endpoint
+    lrpData = null,
+    heatmapData = null
   ) => {
     if (!protein || !mutation) return;
 
     const normalizeResidues = (input) => {
       if (!input) return [];
 
-      // Already the correct shape: [{residue, position, score}, ...]
       if (
         Array.isArray(input) &&
         input.length > 0 &&
@@ -33,13 +30,12 @@ export const AnalysisProvider = ({ children }) => {
         input[0].score !== undefined
       ) {
         return input.map((item, idx) => ({
-          residue:  String(item.residue),
-          score:    Number(item.score),
+          residue: String(item.residue),
+          score: Number(item.score),
           position: item.position ?? idx + 1,
         }));
       }
 
-      // Legacy / arbitrary shapes ─────────────────────────────────────────
       if (!Array.isArray(input)) return [];
 
       const out = [];
@@ -48,8 +44,8 @@ export const AnalysisProvider = ({ children }) => {
 
         if (item.residue !== undefined && item.score !== undefined) {
           out.push({
-            residue:  String(item.residue),
-            score:    Number(item.score),
+            residue: String(item.residue),
+            score: Number(item.score),
             position: item.position ?? idx + 1,
           });
           return;
@@ -59,30 +55,47 @@ export const AnalysisProvider = ({ children }) => {
         const allNumeric = keys.every((k) => typeof item[k] === "number");
         if (allNumeric && keys.length > 0) {
           keys.forEach((k, i) => {
-            out.push({ residue: String(k).toUpperCase(), score: Number(item[k]), position: i + 1 });
+            out.push({
+              residue: String(k).toUpperCase(),
+              score: Number(item[k]),
+              position: i + 1,
+            });
           });
           return;
         }
 
         if (item.res !== undefined && item.val !== undefined) {
-          out.push({ residue: String(item.res), score: Number(item.val), position: item.position ?? idx + 1 });
+          out.push({
+            residue: String(item.res),
+            score: Number(item.val),
+            position: item.position ?? idx + 1,
+          });
           return;
         }
 
         const entry = Object.entries(item).find(([, v]) => typeof v === "number");
         if (entry) {
-          out.push({ residue: String(entry[0]).toUpperCase(), score: Number(entry[1]), position: idx + 1 });
+          out.push({
+            residue: String(entry[0]).toUpperCase(),
+            score: Number(entry[1]),
+            position: idx + 1,
+          });
         }
       });
 
       return out;
     };
 
-    const normalizedLog   = normalizeResidues(perResidueLogShift);
+    const normalizedLog = normalizeResidues(perResidueLogShift);
     const normalizedEmbed = normalizeResidues(perResidueEmbedShift);
-    const normalizedLrp   = normalizeResidues(lrpData);   // same shape as the others
+    const normalizedLrp = normalizeResidues(lrpData);
 
-    // Avoid duplicate runs for the same protein + mutation combo.
+    const normalizedHeatmap = Array.isArray(heatmapData)
+      ? heatmapData.map((row) =>
+          Array.isArray(row) ? row.map((value) => Number(value) || 0) : []
+        )
+      : [];
+
     const existingRuns = runsByProtein[protein] || [];
     const existing = existingRuns.find((r) => r.mutation === mutation);
     if (existing) {
@@ -91,14 +104,16 @@ export const AnalysisProvider = ({ children }) => {
     }
 
     const newRun = {
-      id:        Date.now(),
+      id: Date.now(),
+      protein,
       mutation,
       embeddingDistance,
       logLikelihood,
       perResidue: {
-        logShift:   normalizedLog,
+        logShift: normalizedLog,
         embedShift: normalizedEmbed,
-        lrp:        normalizedLrp,    // ← stored alongside the other vectors
+        lrp: normalizedLrp,
+        heatmap: normalizedHeatmap,
       },
       timestamp: Date.now(),
     };
@@ -147,12 +162,12 @@ export const AnalysisProvider = ({ children }) => {
 
     if (currentIndex === -1 || currentIndex === sortedRuns.length - 1) return null;
 
-    const current  = sortedRuns[currentIndex];
+    const current = sortedRuns[currentIndex];
     const previous = sortedRuns[currentIndex + 1];
 
     return {
-      embedChange:      calculatePercentChange(current.embeddingDistance, previous.embeddingDistance),
-      logChange:        calculatePercentChange(current.logLikelihood,     previous.logLikelihood),
+      embedChange: calculatePercentChange(current.embeddingDistance, previous.embeddingDistance),
+      logChange: calculatePercentChange(current.logLikelihood, previous.logLikelihood),
       previousMutation: previous.mutation,
     };
   };

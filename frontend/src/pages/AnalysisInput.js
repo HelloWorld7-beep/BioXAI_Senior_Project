@@ -45,7 +45,6 @@ function AnalysisInput() {
   const handleRun = async () => {
     if (isLoading) return;
 
-    // basic sanity check before firing off the requests
     const seq = protein.trim();
     const mut = mutation.trim();
 
@@ -54,8 +53,6 @@ function AnalysisInput() {
       return;
     }
 
-    // mutation must follow <WT><pos><MUT> e.g. A123V; multiple mutations
-    // can be separated by commas, spaces or semicolons (same as backend).
     const mutationRegex = /^[A-Za-z]\d+[A-Za-z](?:[,;/\s]+[A-Za-z]\d+[A-Za-z])*$/;
     if (mut && !mutationRegex.test(mut)) {
       alert(
@@ -76,9 +73,9 @@ function AnalysisInput() {
       const embedScoreRes = await postJson(`${BASE}/score-embed`, payload);
       const logScoreRes = await postJson(`${BASE}/score-log`, payload);
       const lrpRes = await postJson(`${BASE}/lrp`, payload);
+      const heatmapRes = await postJson(`${BASE}/get-attention`, { sequence: seq });
 
-      // if any of the responses carry an `error` key bail out and inform user
-      const responses = [embedRes, logRes, embedScoreRes, logScoreRes, lrpRes];
+      const responses = [embedRes, logRes, embedScoreRes, logScoreRes, lrpRes, heatmapRes];
       const err = responses.find((r) => r && r.error);
       if (err) {
         alert(`Server error: ${err.error}`);
@@ -86,13 +83,14 @@ function AnalysisInput() {
       }
 
       const embedShift = embedRes?.embedShift ?? [];
-      const logShift   = logRes?.logShift     ?? [];
+      const logShift = logRes?.logShift ?? [];
       const embedScore = embedScoreRes?.embeddingDistance ?? 0;
-      const logScore   = logScoreRes?.logLikelihood       ?? 0;
-      const lrpData    = lrpRes?.lrp                      ?? [];
+      const logScore = logScoreRes?.logLikelihood ?? 0;
+      const lrpData = lrpRes?.lrp ?? [];
+      const heatmapData = heatmapRes?.matrix ?? [];
 
-      // addRun now accepts lrpData as the fifth argument
-      addRun(embedScore, logScore, logShift, embedShift, lrpData);
+      // addRun now also passes heatmapData
+      addRun(embedScore, logScore, logShift, embedShift, lrpData, heatmapData);
 
       navigate('/analysis/results');
     } catch (err) {
@@ -134,7 +132,9 @@ function AnalysisInput() {
           {isLoading && (
             <div className="analysis-loading">
               <div className="analysis-spinner" />
-              <div className="analysis-loading-text">Running mutation scoring. First run can take longer while models warm up.</div>
+              <div className="analysis-loading-text">
+                Running mutation scoring. First run can take longer while models warm up.
+              </div>
             </div>
           )}
         </div>

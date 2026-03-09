@@ -18,7 +18,7 @@ const HeatmapGrid = ({ sequence, data }) => {
             style={{
               width: '30px',
               height: '30px',
-              backgroundColor: `rgba(255, 0, 0, ${score * 1.5})`, // Multiplied for better contrast
+              backgroundColor: `rgba(255, 0, 0, ${Math.min(score * 8, 1)})`, // Multiplied for better contrast
               cursor: 'help'
             }}
           />
