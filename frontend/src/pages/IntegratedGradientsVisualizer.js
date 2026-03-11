@@ -27,7 +27,7 @@ const IntegratedGradientsVisualizer = () => {
 
       //Send POST request to Flask endpoint
       //Backend computes IG and returns residue-level attribution scores
-      const response = await fetch("http://127.0.0.1:5000/get-integrated-gradients", {
+      const response = await fetch("https://vigilant-space-parakeet-rxp6g5v99rr25vp5-5000.app.github.dev/get-integrated-gradients", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -150,7 +150,7 @@ const IntegratedGradientsVisualizer = () => {
         >
 
           {/* Map each residue to a colored square */}
-          {normalize(importance).map((val, idx) => {
+          {normalize(importance.slice(1, -1)).map((val, idx) => {
 
             const isMutationSite = idx === parseInt(position); //Highlight mutation site
 
@@ -166,7 +166,7 @@ const IntegratedGradientsVisualizer = () => {
                 key={idx}
 
                 //Tooltip shows raw (non-normalized) IG value
-                title={`Pos ${idx} (${sequence[idx]}): ${importance[idx].toFixed(3)}`}
+                title={`Pos ${idx} (${sequence[idx]}): ${importance[idx+1].toFixed(3)}`}
 
                 style={{
                   width: "25px",

@@ -5,7 +5,7 @@ import numpy as np
 
 #Main engine behind my IG implementation
 class IntegratedGradientsEngine:
-    def __init__(self, model, alphabet, steps=50):
+    def __init__(self, model, alphabet, steps=10):
         self.model = model #ESM (650M?)
         self.alphabet = alphabet #AA vocab i.e. token mappings
         self.steps = steps #steps = "interpolation" steps between x -> x'
@@ -68,7 +68,9 @@ class IntegratedGradientsEngine:
             #Instead of replacing the module, we override its forward output using a hook
 
             def hook(module, input, output):
-                return scaled
+                if output.shape == scaled.shape:
+                    return scaled
+                return output
 
             hook_handle = embed_module.register_forward_hook(hook)
 

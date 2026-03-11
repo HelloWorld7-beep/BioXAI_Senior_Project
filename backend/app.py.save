@@ -1,3 +1,5 @@
+ source /workspaces/BioXAI_Senior_Project/venv/bin/activate
+ source /workspaces/BioXAI_Senior_Project/venv/bin/activate
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from attention_engine import get_attention_matrix
@@ -7,7 +9,7 @@ import esm
 
 app = Flask(__name__)
 # Allows the React frontend to talk to this Python server
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 #Load the ESM-2 model and alphabet once, to ominimize latency
@@ -32,13 +34,6 @@ def handle_attention():
     return jsonify({"matrix": matrix})
 
 ig_engine = IntegratedGradientsEngine(model, alphabet)
-
-@app.after_request
-def after_request(response):
-    response.headers.add("Access-Control-Allow-Origin", "*")
-    response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
-    response.headers.add("Access-Control-Allow-Methods", "GET,POST,OPTIONS")
-    return response
 
 @app.route('/get-integrated-gradients', methods=['POST'])
 def handle_integrated_gradients():
