@@ -4,9 +4,10 @@ import Navbar from '../components/Navbar';
 import DashboardBody from '../components/DashboardBody';
 import HeatmapGrid from '../components/HeatmapGrid';
 import { AnalysisContext } from '../AnalysisContext';
+import IntegratedGradientsVisualizer from './IntegratedGradientsVisualizer';
 
 function AnalysisXAI() {
-    const methods = ["LRP", "Heatmaps", "Linear"];
+    const methods = ["LRP", "Heatmaps", "Integrated Gradients"];
     const [selectedMethod, setSelectedMethod] = useState("LRP");
     const [hoveredResidue, setHoveredResidue] = useState(null);
     const { getSelectedRun } = useContext(AnalysisContext);
@@ -115,14 +116,20 @@ function AnalysisXAI() {
         );
     };
 
+    const renderIntegratedGradientsView = () => (
+        <div className='RenderContent'>
+            <IntegratedGradientsVisualizer embedded />
+        </div>
+    );
+
     const renderContent = () => {
         switch (selectedMethod) {
             case "LRP":
                 return renderLRPView();
             case "Heatmaps":
                 return renderHeatmapView();
-            case "Linear":
-                return <div className='RenderContent'>Linear Explanation</div>;
+            case "Integrated Gradients":
+                return renderIntegratedGradientsView();
             default:
                 return <div className='RenderContent'>Please select an XAI method</div>;
         }

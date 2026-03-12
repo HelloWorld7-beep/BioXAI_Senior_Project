@@ -73,9 +73,10 @@ function AnalysisInput() {
       const embedScoreRes = await postJson(`${BASE}/score-embed`, payload);
       const logScoreRes = await postJson(`${BASE}/score-log`, payload);
       const lrpRes = await postJson(`${BASE}/lrp`, payload);
+      const igRes = await postJson(`${BASE}/integrated-gradients`, payload);
       const heatmapRes = await postJson(`${BASE}/get-attention`, { sequence: seq });
 
-      const responses = [embedRes, logRes, embedScoreRes, logScoreRes, lrpRes, heatmapRes];
+      const responses = [embedRes, logRes, embedScoreRes, logScoreRes, lrpRes, igRes, heatmapRes];
       const err = responses.find((r) => r && r.error);
       if (err) {
         alert(`Server error: ${err.error}`);
@@ -87,10 +88,11 @@ function AnalysisInput() {
       const embedScore = embedScoreRes?.embeddingDistance ?? 0;
       const logScore = logScoreRes?.logLikelihood ?? 0;
       const lrpData = lrpRes?.lrp ?? [];
+      const integratedGradients = igRes?.integratedGradients ?? [];
       const heatmapData = heatmapRes?.matrix ?? [];
 
       // addRun now also passes heatmapData
-      addRun(embedScore, logScore, logShift, embedShift, lrpData, heatmapData);
+      addRun(embedScore, logScore, logShift, embedShift, lrpData, heatmapData, integratedGradients);
 
       navigate('/analysis/results');
     } catch (err) {

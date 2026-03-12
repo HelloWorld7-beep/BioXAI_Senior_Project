@@ -126,18 +126,21 @@ html, body {
 
 .score-sci {
     display: inline-flex;
-    align-items: flex-start;
-    gap: 1px;
+    align-items: baseline;
+    gap: 2px;
 }
 
 .score-mul {
-    font-size: 0.52em;
+    font-size: 0.5em;
     margin-left: 2px;
+    line-height: 1;
 }
 
 .score-exp {
-    font-size: 0.36em;
+    font-size: 0.34em;
     line-height: 1;
+    position: relative;
+    top: -0.6em;
 }
 
 .distance-compare-score {

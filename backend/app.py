@@ -10,6 +10,7 @@ import certifi
 
 from attention_engine import get_attention_matrix
 from embedding_engine import EmbeddingEngine
+from integrated_gradients_engine import IntegratedGradientsEngine
 from likelihood_engine import LikelihoodEngine
 from lrp_engine import LRPEngine
 from mutation_utils import parse_mutation, apply_mutation
@@ -61,6 +62,7 @@ def _handle_preflight(_path):
 _embed_engine = EmbeddingEngine()
 _ll_engine    = LikelihoodEngine()
 _lrp_engine   = LRPEngine()
+_ig_engine    = IntegratedGradientsEngine()
 
 _MUTATION_RE = re.compile(r"^[A-Za-z]\d+[A-Za-z](?:[,;/\s]+[A-Za-z]\d+[A-Za-z])*$")
 _SEQUENCE_RE = re.compile(r"^[A-Za-z]+$")
@@ -230,7 +232,7 @@ def residues_log():
 
 
 # ---------------------------------------------------------------------------
-# LRP / Integrated Gradients per-residue relevance
+# LRP per-residue relevance
 # ---------------------------------------------------------------------------
 @app.route('/lrp', methods=['POST'])
 def lrp():
@@ -244,7 +246,7 @@ def lrp():
     Returns:
         {
             "lrp": [{"residue": "A", "position": 1, "score": 0.043}, ...],
-            "method": "integrated_gradients",
+            "method": "layerwise_lrp",
             "targetPosition": 122,
             "targetAa": "V"
         }
@@ -281,6 +283,72 @@ def lrp():
         "targetAa":       result.target_aa,
         "sequence":       sequence,
         "mutation":       mutation,
+    })
+
+
+# ---------------------------------------------------------------------------
+# Integrated Gradients per-residue relevance
+# ---------------------------------------------------------------------------
+@app.route('/integrated-gradients', methods=['POST'])
+def integrated_gradients():
+    """
+    Body:
+        {
+            "sequence": "MAKVL...",
+            "mutation": "A123V"       ← used to determine target_pos and target_aa
+        }
+
+    Returns:
+        {
+            "integratedGradients": [{"residue": "A", "position": 1, "score": 0.043}, ...],
+            "method": "integrated_gradients",
+            "targetPosition": 122,
+            "targetAa": "V"
+        }
+    """
+    data = request.json or {}
+    sequence, mutation = _normalize_sequence_and_mutation(data)
+
+    if not sequence:
+        return jsonify({"error": "No sequence provided."}), 400
+    if not mutation:
+        return jsonify({"error": "No mutation provided (needed to define target position)."}), 400
+
+    try:
+        parsed = parse_mutation(mutation)
+    except ValueError as e:
+        return jsonify({"error": str(e)}), 400
+
+    # For multi-mutation, explain w.r.t. the first mutated position
+    if parsed["type"] == "multi":
+        first = parsed["mutations"][0]
+        target_pos, target_aa = first["pos"], first["mut"]
+    else:
+        target_pos, target_aa = parsed["pos"], parsed["mut"]
+
+    try:
+        result = _ig_engine.compute(sequence, target_pos, target_aa)
+    except Exception as e:
+        return jsonify({"error": f"Integrated gradients computation failed: {e}"}), 500
+
+    # result includes BOS/EOS, drop them to align with sequence length
+    trimmed = result[1:-1] if len(result) >= len(sequence) + 2 else result
+    residues = [
+        {
+            "residue": sequence[i],
+            "position": i + 1,
+            "score": float(trimmed[i]) if i < len(trimmed) else 0.0,
+        }
+        for i in range(len(sequence))
+    ]
+
+    return jsonify({
+        "integratedGradients": residues,
+        "method": "integrated_gradients",
+        "targetPosition": target_pos,
+        "targetAa": target_aa,
+        "sequence": sequence,
+        "mutation": mutation,
     })
 
 

@@ -16,7 +16,8 @@ export const AnalysisProvider = ({ children }) => {
     perResidueLogShift,
     perResidueEmbedShift,
     lrpData = null,
-    heatmapData = null
+    heatmapData = null,
+    integratedGradients = null
   ) => {
     if (!protein || !mutation) return;
 
@@ -89,6 +90,7 @@ export const AnalysisProvider = ({ children }) => {
     const normalizedLog = normalizeResidues(perResidueLogShift);
     const normalizedEmbed = normalizeResidues(perResidueEmbedShift);
     const normalizedLrp = normalizeResidues(lrpData);
+    const normalizedIntegratedGradients = normalizeResidues(integratedGradients);
 
     const normalizedHeatmap = Array.isArray(heatmapData)
       ? heatmapData.map((row) =>
@@ -99,6 +101,28 @@ export const AnalysisProvider = ({ children }) => {
     const existingRuns = runsByProtein[protein] || [];
     const existing = existingRuns.find((r) => r.mutation === mutation);
     if (existing) {
+      setRunsByProtein((prev) => {
+        const proteinRuns = prev[protein] || [];
+        return {
+          ...prev,
+          [protein]: proteinRuns.map((run) => {
+            if (run.id !== existing.id) return run;
+            return {
+              ...run,
+              embeddingDistance,
+              logLikelihood,
+              perResidue: {
+                logShift: normalizedLog,
+                embedShift: normalizedEmbed,
+                lrp: normalizedLrp,
+                heatmap: normalizedHeatmap,
+                integratedGradients: normalizedIntegratedGradients,
+              },
+              timestamp: Date.now(),
+            };
+          }),
+        };
+      });
       setSelectedRunId(existing.id);
       return existing.id;
     }
@@ -114,6 +138,7 @@ export const AnalysisProvider = ({ children }) => {
         embedShift: normalizedEmbed,
         lrp: normalizedLrp,
         heatmap: normalizedHeatmap,
+        integratedGradients: normalizedIntegratedGradients,
       },
       timestamp: Date.now(),
     };
@@ -144,6 +169,29 @@ export const AnalysisProvider = ({ children }) => {
       setProtein(run.protein);
       setMutation(run.mutation);
     }
+  };
+
+  const setRunIntegratedGradients = (runId, importance) => {
+    const normalized = Array.isArray(importance)
+      ? importance.map((value) => Number(value) || 0)
+      : [];
+
+    setRunsByProtein((prev) => {
+      const next = { ...prev };
+      Object.keys(next).forEach((proteinKey) => {
+        next[proteinKey] = (next[proteinKey] || []).map((run) => {
+          if (run.id !== Number(runId)) return run;
+          return {
+            ...run,
+            perResidue: {
+              ...run.perResidue,
+              integratedGradients: normalized,
+            },
+          };
+        });
+      });
+      return next;
+    });
   };
 
   const calculatePercentChange = (current, previous) => {
@@ -195,6 +243,7 @@ export const AnalysisProvider = ({ children }) => {
         setSelectedRunId,
         getSelectedRun,
         getComparisonForProtein,
+        setRunIntegratedGradients,
       }}
     >
       {children}
