@@ -6,6 +6,7 @@ import AnalysisResult from "./pages/AnalysisResult";
 import About from "./pages/About";
 import { AnalysisProvider } from "./AnalysisContext";
 import "./App.css";
+import TensorboardVisual from "./pages/TensorboardVisual";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/analysis" element={<AnalysisInput />} />
           <Route path="/analysis/xai" element={<AnalysisXAI />} />
           <Route path="/analysis/results" element={<AnalysisResult />} />
+          <Route path="/tensorboard" element={<TensorboardVisual />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>

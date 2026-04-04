@@ -10,6 +10,9 @@ function Navbar() {
             <NavLink to="/analysis" className="nav-link">
                 Analysis
             </NavLink>
+            <NavLink to="/tensorboard" className="nav-link">
+                TensorBoard
+            </NavLink>
             <NavLink to="/about" className="nav-link">
                 About
             </NavLink>

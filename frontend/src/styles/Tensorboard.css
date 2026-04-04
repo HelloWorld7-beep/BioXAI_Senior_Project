@@ -1,0 +1,27 @@
+.tensorboard-page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.tensorboard-content {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.tensorboard-description {
+  margin-bottom: 15px;
+}
+
+.tensorboard-frame-wrapper {
+  width: 100%;
+  height: 75vh;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tensorboard-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

@@ -3,6 +3,7 @@
 import os
 import re
 import ssl
+import subprocess #For the tensorboard visual
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -15,6 +16,12 @@ from likelihood_engine import LikelihoodEngine
 from lrp_engine import LRPEngine
 from mutation_utils import parse_mutation, apply_mutation
 
+def start_tensorboard():
+    subprocess.Popen([
+        "tensorboard",
+        "--logdir=runs",
+        "--port=6006"
+    ])
 
 def _configure_ssl_cert_bundle():
     """
@@ -373,4 +380,5 @@ def scan():
 
 
 if __name__ == "__main__":
+    start_tensorboard()
     app.run(port=5000, debug=True)
