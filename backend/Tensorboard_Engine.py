@@ -96,7 +96,7 @@ X = torch.stack(embeddings)
 
 #-------Pick ONE protein to highlight-------#
 
-target_header, target_seq = sequences[1]
+target_header, target_seq = sequences[0]
 #print(target_header)
 
 
@@ -138,40 +138,6 @@ def get_interpolation_path(sequence, steps=100, label_prefix=None):
 
     return torch.stack(path), path_metadata, path_categories
 
-#-------Compute gradient norms along path-------#
-
-def compute_gradient_norms(sequence, steps=100):
-
-    data = [("protein", sequence)]
-    _, _, tokens = batch_converter(data)
-    tokens = tokens.to(device)
-
-    with torch.no_grad():
-        embeddings = model.embed_tokens(tokens)
-
-    baseline_vec = X.mean(dim=0).to(device)
-    baseline = baseline_vec.unsqueeze(0).unsqueeze(0).expand_as(embeddings)
-
-    grad_norms = []
-
-    for i in range(steps + 1):
-        alpha = i / steps
-
-        interpolated = baseline + alpha * (embeddings - baseline)
-        interpolated.requires_grad_(True)
-
-        #simple scalar output (use sum of embeddings as proxy)
-        pooled = interpolated.mean()
-        
-        pooled.backward()
-
-        grad = interpolated.grad
-
-        grad_norm = grad.norm().item()
-        grad_norms.append(grad_norm)
-
-    return grad_norms
-
 
 #Generate the path
 path, path_metadata, path_categories = get_interpolation_path(
@@ -207,6 +173,7 @@ writer.add_embedding(
     X_combined,
     metadata=metadata_tb,
     metadata_header=["Type", "Label"]
+)
 
 writer.close()
 print("Done logging!")
@@ -214,4 +181,4 @@ print("Done logging!")
 
 #-------Launch TensorBoard (run manually in terminal)-------#
 
-#python -m Tensorboard_Engine.py --logdir=runs
+#tensorboard --logdir=runs --port=6006

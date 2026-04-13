@@ -10,11 +10,26 @@ from flask_cors import CORS
 import certifi
 
 from attention_engine import get_attention_matrix
+print("attention_engine")
+
 from embedding_engine import EmbeddingEngine
+print("embedding_engine")
+
 from integrated_gradients_engine import IntegratedGradientsEngine
+print("integrated_gradients_engine")
+
 from likelihood_engine import LikelihoodEngine
+print("likelihood_engine")
+
 from lrp_engine import LRPEngine
+print("lrp_engine")
+
 from mutation_utils import parse_mutation, apply_mutation
+print("mutation_utils")
+
+
+print("APP is starting")
+
 
 def start_tensorboard():
     subprocess.Popen([
@@ -66,6 +81,7 @@ def _handle_preflight(_path):
 # ---------------------------------------------------------------------------
 # Shared engine instances (lazy-loaded on first request)
 # ---------------------------------------------------------------------------
+print("APP is starting")
 _embed_engine = EmbeddingEngine()
 _ll_engine    = LikelihoodEngine()
 _lrp_engine   = LRPEngine()
@@ -380,5 +396,7 @@ def scan():
 
 
 if __name__ == "__main__":
-    start_tensorboard()
+    #print("Starting TensorBoard")
+    #start_tensorboard()
+    print("Starting Flask")
     app.run(port=5000, debug=True)

@@ -69,7 +69,7 @@ class IntegratedGradientsEngine:
     def integrated_gradient_func(self, embeddings, baseline, tokens, token_position, wt_idx, mut_idx):
 
         scaled_embeddings = [
-            baseline + (float(i) / self.steps) * (embeddings - baseline) #From the paper, this is the (x’ _ alpha x (x - x’)) part
+            baseline + (float(i) / self.steps) * (embeddings - baseline) #From the paper, this is the (x’ + alpha x (x - x’)) part
             for i in range(self.steps + 1) #For steps = 50, this creates 51 scaled embeddings from baseline to input embedding
         ]
 
@@ -121,7 +121,7 @@ class IntegratedGradientsEngine:
         return integrated_grads #(batch, seq_len, embed_dim)
 
 #TEMP, for testing...
-engine = IntegratedGradientsEngine(
+'''engine = IntegratedGradientsEngine(
     model_name="esm2_t33_650M_UR50D",
     steps=50
 )
@@ -132,4 +132,4 @@ mut = "A"
 
 ig_values = engine.compute(sequence, position, mut)
 print(len(ig_values))
-print(ig_values[:10])
+print(ig_values[:10])'''

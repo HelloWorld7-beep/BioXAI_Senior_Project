@@ -38,7 +38,8 @@ function About() {
                             </ul>
                         </div>
                     </div>
-
+nbvc;
+';
                     <hr className='divider' />
 
                     <div className='team-section'>
