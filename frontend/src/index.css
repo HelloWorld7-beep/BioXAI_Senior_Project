@@ -1,0 +1,22 @@
+:root{
+  --site-max-width: 1250px;   /* smaller = tighter width; increase to make wider */
+  --site-padding: 2.25rem;    /* inner padding for dashboard content */
+  --nav-height: 3.5rem;       /* height of top nav area */
+}
+
+/* make sure base is predictable */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

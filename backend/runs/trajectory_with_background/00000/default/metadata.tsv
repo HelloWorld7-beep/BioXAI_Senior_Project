@@ -1,0 +1,402 @@
+Type	Label
+DATA	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D
+DATA	>UniRef50_A0AC34QEZ9 Uncharacterized protein n=1 Tax=Panagrolaimus sp. JU765 TaxID=591449 RepID=A0AC34QEZ9_9BILA
+DATA	>UniRef50_A0A5J4UEF6 Uncharacterized protein (Fragment) n=1 Tax=Streblomastix strix TaxID=222440 RepID=A0A5J4UEF6_9EUKA
+DATA	>UniRef50_A0A219B5E6 PRC-barrel protein n=9 Tax=Pseudomonadota TaxID=1224 RepID=A0A219B5E6_9SPHN
+DATA	>UniRef50_A0A7S2P254 Uncharacterized protein (Fragment) n=1 Tax=Zooxanthella nutricula TaxID=1333877 RepID=A0A7S2P254_9DINO
+DATA	>UniRef50_A0A7S0QJC4 Uncharacterized protein (Fragment) n=1 Tax=Cryptomonas curvata TaxID=233186 RepID=A0A7S0QJC4_9CRYP
+DATA	>UniRef50_D5BTK5 DNA (cytosine-5-)-methyltransferase n=1 Tax=Puniceispirillum marinum (strain IMCC1322) TaxID=488538 RepID=D5BTK5_PUNMI
+DATA	>UniRef50_A0A7C9ERV8 Receptor protein serine/threonine kinase (Fragment) n=4 Tax=Pentapetalae TaxID=1437201 RepID=A0A7C9ERV8_OPUST
+DATA	>UniRef50_A0A3B4AGM8 CTCK domain-containing protein n=2 Tax=Periophthalmus magnuspinnatus TaxID=409849 RepID=A0A3B4AGM8_9GOBI
+DATA	>UniRef50_X1V0M5 Peptidase M20 dimerisation domain-containing protein (Fragment) n=1 Tax=marine sediment metagenome TaxID=412755 RepID=X1V0M5_9ZZZZ
+DATA	>UniRef50_A0A834R7S3 Transforming acidic coiled-coil-containing protein 1 n=2 Tax=Sarcoptes scabiei TaxID=52283 RepID=A0A834R7S3_SARSC
+DATA	>UniRef50_UPI003CC64E15 HelD family protein n=1 Tax=Streptomyces bobili TaxID=67280 RepID=UPI003CC64E15
+DATA	>UniRef50_A0A7S3BPM5 Uncharacterized protein (Fragment) n=1 Tax=Prasinoderma singulare TaxID=676789 RepID=A0A7S3BPM5_9VIRI
+DATA	>UniRef50_A0AAW2KEW8 Transcription factor EGL1 (Fragment) n=1 Tax=Sesamum angustifolium TaxID=2727405 RepID=A0AAW2KEW8_9LAMI
+DATA	>UniRef50_A0A7S1VPS3 Uncharacterized protein (Fragment) n=1 Tax=Grammatophora oceanica TaxID=210454 RepID=A0A7S1VPS3_9STRA
+DATA	>UniRef50_A0A7S2W138 P-type ATPase C-terminal domain-containing protein (Fragment) n=1 Tax=Rhizochromulina marina TaxID=1034831 RepID=A0A7S2W138_9STRA
+DATA	>UniRef50_UPI0018E54336 hypothetical protein n=1 Tax=Staphylococcus equorum TaxID=246432 RepID=UPI0018E54336
+DATA	>UniRef50_A0A6G5AGS1 Putative tick transposon (Fragment) n=2 Tax=Rhipicephalus TaxID=34630 RepID=A0A6G5AGS1_RHIMP
+DATA	>UniRef50_A0A7S0ERR3 Uncharacterized protein (Fragment) n=1 Tax=Hanusia phi TaxID=3032 RepID=A0A7S0ERR3_9CRYP
+DATA	>UniRef50_H2E5E5 Histone H3 (Fragment) n=1 Tax=Zephyrarchaea mainae TaxID=1585564 RepID=H2E5E5_9ARAC
+DATA	>UniRef50_A0AA88UG23 Ribosomal protein L34 (Fragment) n=1 Tax=Escallonia rubra TaxID=112253 RepID=A0AA88UG23_9ASTE
+DATA	>UniRef50_UPI000FB8E65F Rib/alpha-like domain-containing protein n=1 Tax=Corynebacterium propinquum TaxID=43769 RepID=UPI000FB8E65F
+DATA	>UniRef50_A0A820JGL3 Uncharacterized protein (Fragment) n=2 Tax=Adineta steineri TaxID=433720 RepID=A0A820JGL3_9BILA
+DATA	>UniRef50_UPI0024A8554F hypothetical protein n=1 Tax=Gulosibacter sediminis TaxID=1729695 RepID=UPI0024A8554F
+DATA	>UniRef50_A0AA38LDE2 Peptide transporter (Fragment) n=3 Tax=Spermatophyta TaxID=58024 RepID=A0AA38LDE2_TAXCH
+DATA	>UniRef50_UPI001AEE96B1 hypothetical protein n=1 Tax=Mesorhizobium sp. M4B.F.Ca.ET.214.01.1.1 TaxID=2563955 RepID=UPI001AEE96B1
+DATA	>UniRef50_A0A7S4V369 Alpha-galactosidase (Fragment) n=1 Tax=Alexandrium monilatum TaxID=311494 RepID=A0A7S4V369_9DINO
+DATA	>UniRef50_A0A6J4JSN6 Uncharacterized protein (Fragment) n=1 Tax=uncultured Craurococcus sp. TaxID=1135998 RepID=A0A6J4JSN6_9PROT
+DATA	>UniRef50_M4IT60 Pistillata (Fragment) n=7 Tax=Pentapetalae TaxID=1437201 RepID=M4IT60_COROF
+DATA	>UniRef50_UPI00307C980F glycoside hydrolase family 19 protein n=1 Tax=Rodentibacter pneumotropicus TaxID=758 RepID=UPI00307C980F
+DATA	>UniRef50_G4XTG5 Variant surface antigen (Fragment) n=7 Tax=Plasmodium chabaudi chabaudi TaxID=31271 RepID=G4XTG5_PLACU
+DATA	>UniRef50_A0A7S3LPD7 Vacuolar protein sorting-associated protein 13 DH-like domain-containing protein (Fragment) n=1 Tax=Aplanochytrium stocchinoi TaxID=215587 RepID=A0A7S3LPD7_9STRA
+DATA	>UniRef50_UPI0009934ADE hypothetical protein n=1 Tax=Enterobacter kobei TaxID=208224 RepID=UPI0009934ADE
+DATA	>UniRef50_A0A7S1ZZR8 Alcohol-forming fatty acyl-CoA reductase (Fragment) n=2 Tax=Eupodiscales TaxID=33838 RepID=A0A7S1ZZR8_TRICV
+DATA	>UniRef50_A0ABS8TKA9 Uncharacterized protein (Fragment) n=2 Tax=Datura stramonium TaxID=4076 RepID=A0ABS8TKA9_DATST
+DATA	>UniRef50_A0A7S2JHV1 CSD domain-containing protein (Fragment) n=4 Tax=Zooxanthella nutricula TaxID=1333877 RepID=A0A7S2JHV1_9DINO
+DATA	>UniRef50_UPI001F2521CC hypothetical protein n=1 Tax=Streptomyces malaysiensis TaxID=92644 RepID=UPI001F2521CC
+DATA	>UniRef50_A0A7S1YRC2 Selenoprotein O (Fragment) n=1 Tax=Ditylum brightwellii TaxID=49249 RepID=A0A7S1YRC2_9STRA
+DATA	>UniRef50_UPI002D6BB22F hypothetical protein n=1 Tax=Phenylobacterium sp. TaxID=1871053 RepID=UPI002D6BB22F
+DATA	>UniRef50_UPI003AB0F570 tyrosine-type recombinase/integrase n=2 Tax=Ruthenibacterium lactatiformans TaxID=1550024 RepID=UPI003AB0F570
+DATA	>UniRef50_UPI0035A38D36 MFS transporter n=1 Tax=Enterobacter hormaechei TaxID=158836 RepID=UPI0035A38D36
+DATA	>UniRef50_A0A7C8Z6L5 CCT domain-containing protein (Fragment) n=1 Tax=Opuntia streptacantha TaxID=393608 RepID=A0A7C8Z6L5_OPUST
+DATA	>UniRef50_A0AA38GUI1 Uncharacterized protein (Fragment) n=1 Tax=Taxus chinensis TaxID=29808 RepID=A0AA38GUI1_TAXCH
+DATA	>UniRef50_A0AAW2Z489 LeuA (Fragment) n=1 Tax=Acrasis kona TaxID=1008807 RepID=A0AAW2Z489_9EUKA
+DATA	>UniRef50_A0A9W4W588 Uncharacterized protein (Fragment) n=1 Tax=Colletotrichum noveboracense TaxID=2664923 RepID=A0A9W4W588_9PEZI
+DATA	>UniRef50_A0ABP0FSX1 Uncharacterized protein (Fragment) n=1 Tax=Clavelina lepadiformis TaxID=159417 RepID=A0ABP0FSX1_CLALP
+DATA	>UniRef50_A0A3Q2E972 Ig-like domain-containing protein n=7 Tax=Cyprinodontoidei TaxID=8087 RepID=A0A3Q2E972_CYPVA
+DATA	>UniRef50_A0A8C5N6T8 Uncharacterized protein n=1 Tax=Gouania willdenowi TaxID=441366 RepID=A0A8C5N6T8_GOUWI
+DATA	>UniRef50_A0ABV0S1A0 HMG box domain-containing protein (Fragment) n=1 Tax=Xenoophorus captivus TaxID=1517983 RepID=A0ABV0S1A0_9TELE
+DATA	>UniRef50_A0A7S4A8Q1 Uncharacterized protein (Fragment) n=1 Tax=Pelagomonas calceolata TaxID=35677 RepID=A0A7S4A8Q1_9STRA
+DATA	>UniRef50_A0A5C3NWM0 Uncharacterized protein (Fragment) n=1 Tax=Polyporus arcularius HHB13444 TaxID=1314778 RepID=A0A5C3NWM0_9APHY
+DATA	>UniRef50_X1N0S9 Anthranilate synthase component I N-terminal domain-containing protein (Fragment) n=2 Tax=marine sediment metagenome TaxID=412755 RepID=X1N0S9_9ZZZZ
+DATA	>UniRef50_A0A2P5A3N3 Uncharacterized protein (Fragment) n=2 Tax=Cannabaceae TaxID=3481 RepID=A0A2P5A3N3_TREOI
+DATA	>UniRef50_A0A7S0XNT7 Uncharacterized protein (Fragment) n=1 Tax=Erythrolobus madagascarensis TaxID=708628 RepID=A0A7S0XNT7_9RHOD
+DATA	>UniRef50_UPI001B7D5593 hypothetical protein n=2 Tax=Actinomycetospora sp. TBRC 11914 TaxID=2729387 RepID=UPI001B7D5593
+DATA	>UniRef50_A0ABN7WI82 46412_t:CDS:1 (Fragment) n=1 Tax=Gigaspora margarita TaxID=4874 RepID=A0ABN7WI82_GIGMA
+DATA	>UniRef50_A0A146LWA4 DNAation factor subunit beta (Fragment) n=4 Tax=Miridae TaxID=30083 RepID=A0A146LWA4_LYGHE
+DATA	>UniRef50_UPI00167BB41B hypothetical protein n=1 Tax=Mesorhizobium sp. M2D.F.Ca.ET.206.01.1.1 TaxID=2563939 RepID=UPI00167BB41B
+DATA	>UniRef50_UPI000377F3CF sulfite exporter TauE/SafE family protein n=2 Tax=Gammaproteobacteria TaxID=1236 RepID=UPI000377F3CF
+DATA	>UniRef50_A0A7S3JNV8 Uncharacterized protein (Fragment) n=1 Tax=Euplotes harpa TaxID=151035 RepID=A0A7S3JNV8_9SPIT
+DATA	>UniRef50_UPI0023B28524 alkaline phosphatase family protein n=2 Tax=Actinomycetes TaxID=1760 RepID=UPI0023B28524
+DATA	>UniRef50_A0A0K8RPC9 Putative glycine rich protein (Fragment) n=2 Tax=Ixodes ricinus TaxID=34613 RepID=A0A0K8RPC9_IXORI
+DATA	>UniRef50_A0A7S1Q4C3 Uncharacterized protein (Fragment) n=1 Tax=Alexandrium catenella TaxID=2925 RepID=A0A7S1Q4C3_ALECA
+DATA	>UniRef50_A0A1B6HRZ6 Uncharacterized protein (Fragment) n=1 Tax=Homalodisca liturata TaxID=320908 RepID=A0A1B6HRZ6_9HEMI
+DATA	>UniRef50_A0A7M5V293 tRNA-dihydrouridine(16/17) synthase [NAD(P)(+)] n=1 Tax=Clytia hemisphaerica TaxID=252671 RepID=A0A7M5V293_9CNID
+DATA	>UniRef50_A0A9N9BIL3 1258_t:CDS:1 (Fragment) n=1 Tax=Paraglomus occultum TaxID=144539 RepID=A0A9N9BIL3_9GLOM
+DATA	>UniRef50_F8PXG5 Uncharacterized protein (Fragment) n=1 Tax=Serpula lacrymans var. lacrymans (strain S7.3) TaxID=936435 RepID=F8PXG5_SERL3
+DATA	>UniRef50_UPI0035681D5A hypothetical protein n=1 Tax=Bosea sp. (in: a-proteobacteria) TaxID=1871050 RepID=UPI0035681D5A
+DATA	>UniRef50_A0A9N9IYK7 5395_t:CDS:1 (Fragment) n=2 Tax=Funneliformis TaxID=1117308 RepID=A0A9N9IYK7_9GLOM
+DATA	>UniRef50_G5R6E2 Thiamin biosynthesis protein ThiC (Fragment) n=6 Tax=Gammaproteobacteria TaxID=1236 RepID=G5R6E2_SALSE
+DATA	>UniRef50_A0A7S2NW03 Prolyl aminopeptidase (Fragment) n=1 Tax=Zooxanthella nutricula TaxID=1333877 RepID=A0A7S2NW03_9DINO
+DATA	>UniRef50_UPI001C311E69 hypothetical protein n=1 Tax=Curtobacterium sp. MMLR14_014 TaxID=1898744 RepID=UPI001C311E69
+DATA	>UniRef50_UPI002B6CB415 beta-ketoacyl reductase n=1 Tax=Accumulibacter sp. TaxID=2053492 RepID=UPI002B6CB415
+DATA	>UniRef50_A0A7R9U4K3 Uncharacterized protein (Fragment) n=1 Tax=Pinguiococcus pyrenoidosus TaxID=172671 RepID=A0A7R9U4K3_9STRA
+DATA	>UniRef50_UPI00290180B2 NAD/NADP octopine/nopaline dehydrogenase family protein n=1 Tax=Finegoldia magna TaxID=1260 RepID=UPI00290180B2
+DATA	>UniRef50_A0A6J4UA52 Uncharacterized protein (Fragment) n=1 Tax=uncultured Thermomicrobiales bacterium TaxID=1645740 RepID=A0A6J4UA52_9BACT
+DATA	>UniRef50_A0A1B6C5L1 Uncharacterized protein (Fragment) n=1 Tax=Clastoptera arizonana TaxID=38151 RepID=A0A1B6C5L1_9HEMI
+DATA	>UniRef50_A0ABD3Y0W4 Ubiquitin-like domain-containing protein (Fragment) n=3 Tax=Sinanodonta woodiana TaxID=1069815 RepID=A0ABD3Y0W4_SINWO
+DATA	>UniRef50_A0A6J4KUP7 Glycerol-3-phosphate dehydrogenase [NAD(P)+] (Fragment) n=1 Tax=uncultured Nocardioidaceae bacterium TaxID=253824 RepID=A0A6J4KUP7_9ACTN
+DATA	>UniRef50_UPI0015E852B3 hypothetical protein n=1 Tax=Staphylococcus pseudintermedius TaxID=283734 RepID=UPI0015E852B3
+DATA	>UniRef50_A0AA49X688 DNA-directed DNA polymerase (Fragment) n=1 Tax=Retropinna adenovirus 1 TaxID=3064104 RepID=A0AA49X688_9ADEN
+DATA	>UniRef50_B6VEV7 Beta-actin (Fragment) n=2 Tax=Boreoeutheria TaxID=1437010 RepID=B6VEV7_NEOVI
+DATA	>UniRef50_UPI0025BD9AE2 hypothetical protein n=1 Tax=Mesorhizobium sp. TaxID=1871066 RepID=UPI0025BD9AE2
+DATA	>UniRef50_A0A820F5V8 VCBS repeat-containing protein (Fragment) n=2 Tax=Adineta steineri TaxID=433720 RepID=A0A820F5V8_9BILA
+DATA	>UniRef50_A0A7S3LZ86 PABC domain-containing protein (Fragment) n=1 Tax=Spumella elongata TaxID=89044 RepID=A0A7S3LZ86_9STRA
+DATA	>UniRef50_UPI003F53CCD4 acyltransferase domain-containing protein n=2 Tax=Streptosporangium sp. V21-05 TaxID=3446115 RepID=UPI003F53CCD4
+DATA	>UniRef50_UPI00280070C9 hydantoinase/oxoprolinase family protein n=1 Tax=Arthrobacter sp. 4R501 TaxID=2058886 RepID=UPI00280070C9
+DATA	>UniRef50_UPI000AB2A830 hypothetical protein n=2 Tax=Nocardia TaxID=1817 RepID=UPI000AB2A830
+DATA	>UniRef50_A0A2S2PZ67 Uncharacterized protein (Fragment) n=1 Tax=Sipha flava TaxID=143950 RepID=A0A2S2PZ67_9HEMI
+DATA	>UniRef50_A0A7R9T176 Uncharacterized protein (Fragment) n=1 Tax=Ostreococcus sp. 'lucimarinus' TaxID=242159 RepID=A0A7R9T176_9CHLO
+DATA	>UniRef50_A0A543HHC4 Methyltransferase family protein (Fragment) n=1 Tax=Humibacillus xanthopallidus TaxID=412689 RepID=A0A543HHC4_9MICO
+DATA	>UniRef50_A0A1B6IJM9 Uncharacterized protein (Fragment) n=1 Tax=Homalodisca liturata TaxID=320908 RepID=A0A1B6IJM9_9HEMI
+DATA	>UniRef50_A0A7S2D2R9 Uncharacterized protein (Fragment) n=1 Tax=Alexandrium andersonii TaxID=327968 RepID=A0A7S2D2R9_9DINO
+DATA	>UniRef50_UPI00397D2D13 phosphatidylserine decarboxylase n=1 Tax=Paraburkholderia sp. SIMBA_053 TaxID=3085794 RepID=UPI00397D2D13
+DATA	>UniRef50_A0A7S1EHG8 Uncharacterized protein (Fragment) n=2 Tax=Hemiselmis andersenii TaxID=464988 RepID=A0A7S1EHG8_HEMAN
+DATA	>UniRef50_T1CL23 Glycosyltransferase (Fragment) n=1 Tax=mine drainage metagenome TaxID=410659 RepID=T1CL23_9ZZZZ
+DATA	>UniRef50_UPI0036288B47 class I tRNA ligase family protein n=1 Tax=Priestia megaterium TaxID=1404 RepID=UPI0036288B47
+DATA	>UniRef50_A0AAW9IIS5 HAD hydrolase family protein (Fragment) n=4 Tax=Bacteria TaxID=2 RepID=A0AAW9IIS5_CLOPF
+DATA	>UniRef50_UPI00227657F2 DUF669 domain-containing protein n=1 Tax=Staphylococcus pettenkoferi TaxID=170573 RepID=UPI00227657F2
+DATA	>UniRef50_A0A6V7H158 Uncharacterized protein (Fragment) n=1 Tax=Heterotrigona itama TaxID=395501 RepID=A0A6V7H158_9HYME
+DATA	>UniRef50_A0A7S1LAH8 Uncharacterized protein (Fragment) n=1 Tax=Neobodo designis TaxID=312471 RepID=A0A7S1LAH8_NEODS
+DATA	>UniRef50_G1K0G5 Uncharacterized protein (Fragment) n=1 Tax=Rhodnius prolixus TaxID=13249 RepID=G1K0G5_RHOPR
+DATA	>UniRef50_A0A7J6STX2 Uncharacterized protein (Fragment) n=1 Tax=Perkinsus olseni TaxID=32597 RepID=A0A7J6STX2_PEROL
+DATA	>UniRef50_A0A7R9W2F8 Uncharacterized protein (Fragment) n=1 Tax=Pseudictyota dubia TaxID=2749911 RepID=A0A7R9W2F8_9STRA
+DATA	>UniRef50_A0A8I5NB18 Transmembrane protein 42 n=5 Tax=Boreoeutheria TaxID=1437010 RepID=A0A8I5NB18_PAPAN
+DATA	>UniRef50_A0A7S4R1T2 Uncharacterized protein (Fragment) n=1 Tax=Alexandrium monilatum TaxID=311494 RepID=A0A7S4R1T2_9DINO
+DATA	>UniRef50_X1FMP7 Uncharacterized protein (Fragment) n=1 Tax=marine sediment metagenome TaxID=412755 RepID=X1FMP7_9ZZZZ
+DATA	>UniRef50_A0A8J9SMY0 Uncharacterized protein (Fragment) n=1 Tax=Phaeodactylum tricornutum TaxID=2850 RepID=A0A8J9SMY0_PHATR
+DATA	>UniRef50_A0A8B9HB42 Uncharacterized protein n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=A0A8B9HB42_ASTMX
+DATA	>UniRef50_UPI00260B72EA DUF3458 domain-containing protein n=1 Tax=uncultured Legionella sp. TaxID=210934 RepID=UPI00260B72EA
+DATA	>UniRef50_A0A7S0FTL1 MalT-like TPR region domain-containing protein (Fragment) n=1 Tax=Pyrodinium bahamense TaxID=73915 RepID=A0A7S0FTL1_9DINO
+DATA	>UniRef50_A0AAV6YF77 Nuclear receptor domain-containing protein (Fragment) n=11 Tax=Bilateria TaxID=33213 RepID=A0AAV6YF77_ENGPU
+DATA	>UniRef50_UPI0011AED0DB RNA-guided endonuclease InsQ/TnpB family protein n=10 Tax=Cyanophyceae TaxID=3028117 RepID=UPI0011AED0DB
+DATA	>UniRef50_A0ACB8SZ91 Uncharacterized protein (Fragment) n=1 Tax=Artomyces pyxidatus TaxID=48021 RepID=A0ACB8SZ91_9AGAM
+DATA	>UniRef50_A0AAD5H0B3 Uncharacterized protein (Fragment) n=1 Tax=Ambrosia artemisiifolia TaxID=4212 RepID=A0AAD5H0B3_AMBAR
+DATA	>UniRef50_A0AAQ3XDW4 Transposase (Fragment) n=1 Tax=Paspalum notatum var. saurae TaxID=547442 RepID=A0AAQ3XDW4_PASNO
+DATA	>UniRef50_A0A7S1W0G6 Bestrophin homolog (Fragment) n=1 Tax=Alexandrium catenella TaxID=2925 RepID=A0A7S1W0G6_ALECA
+DATA	>UniRef50_A0A367LBX7 Uncharacterized protein (Fragment) n=3 Tax=Ophiocordyceps polyrhachis-furcata BCC 54312 TaxID=1330021 RepID=A0A367LBX7_9HYPO
+DATA	>UniRef50_UPI00355A2259 keratin-associated protein 5-2-like n=1 Tax=Heptranchias perlo TaxID=212740 RepID=UPI00355A2259
+DATA	>UniRef50_I0CFH9 Pol protein (Fragment) n=3 Tax=Human immunodeficiency virus type 1 TaxID=11676 RepID=I0CFH9_HV1
+DATA	>UniRef50_F6JCK1 CG8995 (Fragment) n=2 Tax=Drosophila melanogaster TaxID=7227 RepID=F6JCK1_DROME
+DATA	>UniRef50_A0A4P9VX75 P-type ATPase C-terminal domain-containing protein (Fragment) n=1 Tax=Blyttiomyces helicus TaxID=388810 RepID=A0A4P9VX75_9FUNG
+DATA	>UniRef50_A0A401TPZ6 C2H2-type domain-containing protein (Fragment) n=1 Tax=Chiloscyllium punctatum TaxID=137246 RepID=A0A401TPZ6_CHIPU
+DATA	>UniRef50_A0A8C5SSS0 Deubiquitinase DESI2 n=6 Tax=Euteleostomi TaxID=117571 RepID=A0A8C5SSS0_LATLA
+DATA	>UniRef50_UPI00354C1572 hypothetical protein n=3 Tax=unclassified Shewanella TaxID=196818 RepID=UPI00354C1572
+DATA	>UniRef50_S4RWX3 TBC1 domain family member 14 n=14 Tax=Vertebrata TaxID=7742 RepID=S4RWX3_PETMA
+DATA	>UniRef50_UPI00397C68F8 hypothetical protein n=1 Tax=Paraburkholderia sp. SIMBA_053 TaxID=3085794 RepID=UPI00397C68F8
+DATA	>UniRef50_A0A7S0VXU7 Tyrosine-protein kinase ephrin type A/B receptor-like domain-containing protein (Fragment) n=1 Tax=Hemiselmis tepida TaxID=464990 RepID=A0A7S0VXU7_9CRYP
+DATA	>UniRef50_UPI0011A10C56 Nramp family divalent metal transporter n=2 Tax=Micrococcus TaxID=1269 RepID=UPI0011A10C56
+DATA	>UniRef50_U9TT98 Uncharacterized protein (Fragment) n=1 Tax=Rhizophagus irregularis (strain DAOM 181602 / DAOM 197198 / MUCL 43194) TaxID=747089 RepID=U9TT98_RHIID
+DATA	>UniRef50_A0A7J6QFC6 Uncharacterized protein (Fragment) n=1 Tax=Perkinsus olseni TaxID=32597 RepID=A0A7J6QFC6_PEROL
+DATA	>UniRef50_A0A7S1RZF6 Uncharacterized protein (Fragment) n=1 Tax=Alexandrium catenella TaxID=2925 RepID=A0A7S1RZF6_ALECA
+DATA	>UniRef50_A0A1A8VEC0 Adenomatosis polyposis coli 2 (Fragment) n=3 Tax=Atherinomorphae TaxID=1489913 RepID=A0A1A8VEC0_NOTFU
+DATA	>UniRef50_UPI001BCF901E peptidoglycan DD-metalloendopeptidase family protein n=1 Tax=Vannielia litorea TaxID=1217970 RepID=UPI001BCF901E
+DATA	>UniRef50_A0A0H5QJV3 Secreted protein (Fragment) n=1 Tax=Spongospora subterranea TaxID=70186 RepID=A0A0H5QJV3_9EUKA
+DATA	>UniRef50_A0AAV5UYQ2 ZP domain-containing protein (Fragment) n=1 Tax=Pristionchus fissidentatus TaxID=1538716 RepID=A0AAV5UYQ2_9BILA
+DATA	>UniRef50_A0A1Y1JRM0 Orn/DAP/Arg decarboxylase 2 N-terminal domain-containing protein (Fragment) n=1 Tax=Photinus pyralis TaxID=7054 RepID=A0A1Y1JRM0_PHOPY
+DATA	>UniRef50_T0ZE10 KilA-N DNA-binding domain-containing protein (Fragment) n=1 Tax=mine drainage metagenome TaxID=410659 RepID=T0ZE10_9ZZZZ
+DATA	>UniRef50_UPI000F969F71 ComEC/Rec2 family competence protein n=1 Tax=Pedobacter sp. KBW01 TaxID=2153364 RepID=UPI000F969F71
+DATA	>UniRef50_A0A7S2VCD6 Uncharacterized protein (Fragment) n=2 Tax=Entomoneis paludosa TaxID=265537 RepID=A0A7S2VCD6_9STRA
+DATA	>UniRef50_A0A5J4ND73 Uncharacterized protein (Fragment) n=1 Tax=Paragonimus westermani TaxID=34504 RepID=A0A5J4ND73_9TREM
+DATA	>UniRef50_UPI0035A25307 hypothetical protein n=1 Tax=Cellulomonas biazotea TaxID=1709 RepID=UPI0035A25307
+DATA	>UniRef50_UPI003FEF2FE3 cation diffusion facilitator family transporter n=1 Tax=Lachnospira sp. TaxID=2049031 RepID=UPI003FEF2FE3
+DATA	>UniRef50_A0ABD6EBR2 Ras-GEF domain-containing protein (Fragment) n=3 Tax=Rhabditida TaxID=6236 RepID=A0ABD6EBR2_9BILA
+DATA	>UniRef50_A0A672IJC3 SRCR domain-containing protein n=6 Tax=Salarias fasciatus TaxID=181472 RepID=A0A672IJC3_SALFA
+DATA	>UniRef50_A0A094LIR5 Butyrophilin subfamily 2 member A1 (Fragment) n=5 Tax=Neoaves TaxID=3078114 RepID=A0A094LIR5_PODCR
+DATA	>UniRef50_A0A820FA63 HAT C-terminal dimerisation domain-containing protein (Fragment) n=3 Tax=Rotaria TaxID=231623 RepID=A0A820FA63_9BILA
+DATA	>UniRef50_A0A5J9SCR3 Uncharacterized protein (Fragment) n=1 Tax=Eragrostis curvula TaxID=38414 RepID=A0A5J9SCR3_9POAL
+DATA	>UniRef50_A0A6J4SIL9 PNPLA domain-containing protein (Fragment) n=1 Tax=uncultured Rubrobacteraceae bacterium TaxID=349277 RepID=A0A6J4SIL9_9ACTN
+DATA	>UniRef50_Q19Q30 Metallothionein-like (Fragment) n=1 Tax=Belgica antarctica TaxID=315563 RepID=Q19Q30_9DIPT
+DATA	>UniRef50_UPI00125EB0F0 ABC transporter permease n=1 Tax=Bacteroides xylanisolvens TaxID=371601 RepID=UPI00125EB0F0
+DATA	>UniRef50_A0ABQ9EM13 Uncharacterized protein (Fragment) n=2 Tax=Pteriomorphia TaxID=6545 RepID=A0ABQ9EM13_TEGGR
+DATA	>UniRef50_UPI000ACE6F07 hypothetical protein n=1 Tax=Clostridium botulinum TaxID=1491 RepID=UPI000ACE6F07
+DATA	>UniRef50_UPI002E103F7E transposase n=1 Tax=Streptomyces sp. Wh19 TaxID=3076629 RepID=UPI002E103F7E
+DATA	>UniRef50_A0A7S2H0Z2 Uncharacterized protein (Fragment) n=1 Tax=Haptolina brevifila TaxID=156173 RepID=A0A7S2H0Z2_9EUKA
+DATA	>UniRef50_A0A0K8SLZ0 Integrase p58-like C-terminal domain-containing protein (Fragment) n=1 Tax=Lygus hesperus TaxID=30085 RepID=A0A0K8SLZ0_LYGHE
+DATA	>UniRef50_UPI001E4351E1 AMP-binding enzyme n=1 Tax=Streptomyces longispororuber TaxID=68230 RepID=UPI001E4351E1
+DATA	>UniRef50_A0A1M6S8U8 Cyclase (Fragment) n=3 Tax=Actinomycetes TaxID=1760 RepID=A0A1M6S8U8_PSETH
+DATA	>UniRef50_A0A8S9GIA5 Peptidase A1 domain-containing protein (Fragment) n=1 Tax=Brassica cretica TaxID=69181 RepID=A0A8S9GIA5_BRACR
+DATA	>UniRef50_A0A8C2NVE3 Lipocalin/cytosolic fatty-acid binding domain-containing protein n=2 Tax=Caprinae TaxID=9963 RepID=A0A8C2NVE3_CAPHI
+DATA	>UniRef50_F3C6X8 Error-prone DNA polymerase (Fragment) n=2 Tax=Pseudomonadota TaxID=1224 RepID=F3C6X8_PSESG
+DATA	>UniRef50_A0A7S3YWF0 J domain-containing protein (Fragment) n=1 Tax=Lotharella globosa TaxID=91324 RepID=A0A7S3YWF0_9EUKA
+DATA	>UniRef50_A0A2U2DSF6 Uncharacterized protein n=1 Tax=Metarhizobium album TaxID=2182425 RepID=A0A2U2DSF6_9HYPH
+DATA	>UniRef50_A0A401SXK0 Uncharacterized protein n=1 Tax=Chiloscyllium punctatum TaxID=137246 RepID=A0A401SXK0_CHIPU
+DATA	>UniRef50_UPI0025C72328 putative phage tail protein n=2 Tax=Fibrobacter TaxID=832 RepID=UPI0025C72328
+DATA	>UniRef50_A0A502BP74 Type II secretion system F family protein n=1 Tax=Brucella gallinifaecis TaxID=215590 RepID=A0A502BP74_9HYPH
+DATA	>UniRef50_A0A7S2P254 Uncharacterized protein (Fragment) n=1 Tax=Zooxanthella nutricula TaxID=1333877 RepID=A0A7S2P254_9DINO
+DATA	>UniRef50_D5BTK5 DNA (cytosine-5-)-methyltransferase n=1 Tax=Puniceispirillum marinum (strain IMCC1322) TaxID=488538 RepID=D5BTK5_PUNMI
+DATA	>UniRef50_UPI001EF55E7F hypothetical protein n=1 Tax=Epibacterium sp. Ofav1-8 TaxID=2917735 RepID=UPI001EF55E7F
+DATA	>UniRef50_A0A1Q8S8Z9 Uncharacterized protein n=1 Tax=Colletotrichum chlorophyti TaxID=708187 RepID=A0A1Q8S8Z9_9PEZI
+DATA	>UniRef50_A0A7C9ERV8 Receptor protein serine/threonine kinase (Fragment) n=4 Tax=Pentapetalae TaxID=1437201 RepID=A0A7C9ERV8_OPUST
+DATA	>UniRef50_A0A1D7YC47 Uncharacterized protein n=1 Tax=Streptomyces fodineus TaxID=1904616 RepID=A0A1D7YC47_9ACTN
+DATA	>UniRef50_F8L684 Uncharacterized protein n=1 Tax=Simkania negevensis (strain ATCC VR-1471 / DSM 27360 / Z) TaxID=331113 RepID=F8L684_SIMNZ
+DATA	>UniRef50_UPI002A5568D5 hypothetical protein n=1 Tax=Cellulosispirillum alkaliphilum TaxID=3039283 RepID=UPI002A5568D5
+DATA	>UniRef50_A0A381RNV7 Cytochrome c-type biogenesis protein CcmE n=3 Tax=marine metagenome TaxID=408172 RepID=A0A381RNV7_9ZZZZ
+DATA	>UniRef50_A0A5P1FTS8 Transmembrane protein n=1 Tax=Asparagus officinalis TaxID=4686 RepID=A0A5P1FTS8_ASPOF
+DATA	>UniRef50_A0A377I871 Uncharacterized protein n=3 Tax=Avibacterium paragallinarum TaxID=728 RepID=A0A377I871_AVIPA
+DATA	>UniRef50_UPI0012626BF8 hypothetical protein n=1 Tax=Alkalilimnicola sp. S0819 TaxID=2613922 RepID=UPI0012626BF8
+DATA	>UniRef50_D5UF13 Pseudouridine synthase n=110 Tax=Actinomycetes TaxID=1760 RepID=D5UF13_CELFN
+DATA	>UniRef50_X1V0M5 Peptidase M20 dimerisation domain-containing protein (Fragment) n=1 Tax=marine sediment metagenome TaxID=412755 RepID=X1V0M5_9ZZZZ
+DATA	>UniRef50_A0A1W9S2C1 Glycosyl transferase family 1 domain-containing protein n=1 Tax=Candidatus Coatesbacteria bacterium 4484_99 TaxID=1970774 RepID=A0A1W9S2C1_9BACT
+DATA	>UniRef50_A0A2N3LR74 Flagellar biosynthesis protein FlhF n=46 Tax=Bacillaceae TaxID=186817 RepID=A0A2N3LR74_9BACI
+DATA	>UniRef50_A0A067EIF0 Uncharacterized protein n=2 Tax=Citrus TaxID=2706 RepID=A0A067EIF0_CITSI
+DATA	>UniRef50_A0A090RIC0 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Photobacterium aphoticum TaxID=754436 RepID=A0A090RIC0_9GAMM
+DATA	>UniRef50_A0A9K3NS82 40S ribosomal protein S24 n=7 Tax=Heliantheae alliance TaxID=911341 RepID=A0A9K3NS82_HELAN
+DATA	>UniRef50_D2YD56 Putative flagella synthesis protein FlgN n=24 Tax=Vibrio TaxID=662 RepID=D2YD56_VIBMI
+DATA	>UniRef50_Q6YUX2 Uncharacterized protein n=1 Tax=Oryza sativa subsp. japonica TaxID=39947 RepID=Q6YUX2_ORYSJ
+DATA	>UniRef50_UPI00298ECC7B hypothetical protein n=1 Tax=Candidatus Acetatifactor stercoripullorum TaxID=2838414 RepID=UPI00298ECC7B
+DATA	>UniRef50_A0A0X3V6M0 HTH cro/C1-type domain-containing protein n=61 Tax=Streptomyces TaxID=1883 RepID=A0A0X3V6M0_9ACTN
+DATA	>UniRef50_A0AAE0GAI0 Uncharacterized protein n=1 Tax=Cymbomonas tetramitiformis TaxID=36881 RepID=A0AAE0GAI0_9CHLO
+DATA	>UniRef50_UPI002B98DFDA DUF4256 domain-containing protein n=1 Tax=Flavobacterium sp. TaxID=239 RepID=UPI002B98DFDA
+DATA	>UniRef50_A0ABP9N2R7 Excinuclease cho n=1 Tax=Orbus sasakiae TaxID=1078475 RepID=A0ABP9N2R7_9GAMM
+DATA	>UniRef50_UPI00145EF0DB hypothetical protein n=1 Tax=Brasilonema sp. UFV-L1 TaxID=2234130 RepID=UPI00145EF0DB
+DATA	>UniRef50_A0A6M3JML4 Putative exodeoxyribonuclease 8 PDDEXK-like domain-containing protein n=1 Tax=viral metagenome TaxID=1070528 RepID=A0A6M3JML4_9ZZZZ
+DATA	>UniRef50_UPI00255646A3 hypothetical protein n=1 Tax=Lentzea sp. NBRC 102530 TaxID=3032201 RepID=UPI00255646A3
+DATA	>UniRef50_A0AAN7UVG1 ZIC1-5/GLI1-3like C2H2 zinc finger domain-containing protein n=2 Tax=Sordariomycetes TaxID=147550 RepID=A0AAN7UVG1_9PEZI
+DATA	>UniRef50_A0AAE1Y001 TOD1/MUCI70 glycosyltransferase-like domain-containing protein n=4 Tax=Mesangiospermae TaxID=1437183 RepID=A0AAE1Y001_9LAMI
+DATA	>UniRef50_A0AAE3VBS8 Uncharacterized protein YjcR n=1 Tax=Moryella indoligenes TaxID=371674 RepID=A0AAE3VBS8_9FIRM
+DATA	>UniRef50_A0ABN8S359 Collagen-like protein (Fragment) n=1 Tax=Porites evermanni TaxID=104178 RepID=A0ABN8S359_9CNID
+DATA	>UniRef50_A0A0D3DKP0 Uncharacterized protein n=18 Tax=Brassica TaxID=3705 RepID=A0A0D3DKP0_BRAOL
+DATA	>UniRef50_I0IAJ3 Uncharacterized protein n=2 Tax=Phycisphaera mikurensis TaxID=547188 RepID=I0IAJ3_PHYMF
+DATA	>UniRef50_A0A7C4EVV8 Uncharacterized protein (Fragment) n=1 Tax=Desulfomonile tiedjei TaxID=2358 RepID=A0A7C4EVV8_9BACT
+DATA	>UniRef50_A0A7S2W138 P-type ATPase C-terminal domain-containing protein (Fragment) n=1 Tax=Rhizochromulina marina TaxID=1034831 RepID=A0A7S2W138_9STRA
+DATA	>UniRef50_A0AAE9JUW5 Uncharacterized protein n=1 Tax=Stenotrophomonas maltophilia phage vB_SmaM_Ps15 TaxID=3071007 RepID=A0AAE9JUW5_9CAUD
+DATA	>UniRef50_UPI0021A8717C hypothetical protein n=17 Tax=Streptomyces TaxID=1883 RepID=UPI0021A8717C
+DATA	>UniRef50_UPI001F5CF420 hypothetical protein n=1 Tax=Alicyclobacillus mali (ex Roth et al. 2021) TaxID=1123961 RepID=UPI001F5CF420
+DATA	>UniRef50_A0A7J7DYP4 Uncharacterized protein n=1 Tax=Tripterygium wilfordii TaxID=458696 RepID=A0A7J7DYP4_TRIWF
+DATA	>UniRef50_A0A820R3V2 Uncharacterized protein (Fragment) n=1 Tax=Adineta steineri TaxID=433720 RepID=A0A820R3V2_9BILA
+DATA	>UniRef50_A0A6C0LSB6 Uncharacterized protein n=1 Tax=viral metagenome TaxID=1070528 RepID=A0A6C0LSB6_9ZZZZ
+DATA	>UniRef50_A0A1G9G9W9 Catechol 2,3-dioxygenase n=285 Tax=Bacteria TaxID=2 RepID=A0A1G9G9W9_9HYPH
+DATA	>UniRef50_UPI002E0F24D5 hypothetical protein n=1 Tax=Micromonospora ureilytica TaxID=709868 RepID=UPI002E0F24D5
+DATA	>UniRef50_A0A834SP63 Uncharacterized protein n=1 Tax=Senna tora TaxID=362788 RepID=A0A834SP63_9FABA
+DATA	>UniRef50_A0A7D5TDL1 DUF2182 domain-containing protein n=4 Tax=Haloarculaceae TaxID=1963268 RepID=A0A7D5TDL1_9EURY
+DATA	>UniRef50_A0A4U5N5V7 Uncharacterized protein n=1 Tax=Steinernema carpocapsae TaxID=34508 RepID=A0A4U5N5V7_STECR
+DATA	>UniRef50_A0ACC1QBV4 Uncharacterized protein n=2 Tax=Trametes sanguinea TaxID=158606 RepID=A0ACC1QBV4_9APHY
+DATA	>UniRef50_A0A9W9RHN7 Uncharacterized protein n=1 Tax=Penicillium concentricum TaxID=293559 RepID=A0A9W9RHN7_9EURO
+DATA	>UniRef50_UPI0010E4BF5D sulfate/molybdate ABC transporter ATP-binding protein n=1 Tax=Zhaonella formicivorans TaxID=2528593 RepID=UPI0010E4BF5D
+DATA	>UniRef50_UPI0038D3C639 MerR family transcriptional regulator n=1 Tax=Kribbella solani TaxID=236067 RepID=UPI0038D3C639
+DATA	>UniRef50_W4PJ75 SusC, outer membrane protein n=1 Tax=Bacteroides pyogenes DSM 20611 = JCM 6294 TaxID=1121100 RepID=W4PJ75_9BACE
+DATA	>UniRef50_A0A915CU37 Uncharacterized protein n=1 Tax=Ditylenchus dipsaci TaxID=166011 RepID=A0A915CU37_9BILA
+DATA	>UniRef50_A0A812S528 Uncharacterized protein (Fragment) n=1 Tax=Symbiodinium pilosum TaxID=2952 RepID=A0A812S528_SYMPI
+DATA	>UniRef50_A0ABZ0IQD2 Outer membrane protein beta-barrel domain-containing protein n=6 Tax=Imperialibacter TaxID=1649461 RepID=A0ABZ0IQD2_9BACT
+DATA	>UniRef50_A0A834Y6R9 Myb/SANT-like domain-containing protein n=3 Tax=Tetracentron sinense TaxID=13715 RepID=A0A834Y6R9_TETSI
+DATA	>UniRef50_F0ELQ6 Heme-binding protein n=110 Tax=Lactobacillales TaxID=186826 RepID=F0ELQ6_ENTCA
+DATA	>UniRef50_UPI00141B8C7A uncharacterized protein LOC117089702 isoform X1 n=3 Tax=Trachypithecus francoisi TaxID=54180 RepID=UPI00141B8C7A
+DATA	>UniRef50_A0AAN8UL84 Uncharacterized protein n=1 Tax=Dillenia turbinata TaxID=194707 RepID=A0AAN8UL84_9MAGN
+DATA	>UniRef50_A0A3L8T116 Uncharacterized protein n=1 Tax=Chloebia gouldiae TaxID=44316 RepID=A0A3L8T116_CHLGU
+DATA	>UniRef50_UPI0035C6D927 hydantoinase/oxoprolinase N-terminal domain-containing protein n=3 Tax=Alphaproteobacteria TaxID=28211 RepID=UPI0035C6D927
+DATA	>UniRef50_Q23W08 Small guanosine triphosphatase family Ras family protein n=2 Tax=Tetrahymena thermophila TaxID=5911 RepID=Q23W08_TETTS
+DATA	>UniRef50_M9M3U8 Transposase and inactivated derivative n=1 Tax=Paenibacillus popilliae ATCC 14706 TaxID=1212764 RepID=M9M3U8_PAEPP
+DATA	>UniRef50_A0A7S0B8Q5 Cdc23 domain-containing protein n=1 Tax=Pyrodinium bahamense TaxID=73915 RepID=A0A7S0B8Q5_9DINO
+DATA	>UniRef50_UPI001F45C38E DUF4624 family lipoprotein n=1 Tax=Intestinibacillus massiliensis TaxID=1871029 RepID=UPI001F45C38E
+DATA	>UniRef50_A0ABZ0CX03 PaaI family thioesterase n=19 Tax=Burkholderiales TaxID=80840 RepID=A0ABZ0CX03_9BURK
+DATA	>UniRef50_A0A9D4MZ87 Uncharacterized protein n=1 Tax=Dreissena polymorpha TaxID=45954 RepID=A0A9D4MZ87_DREPO
+DATA	>UniRef50_A0A166B3K5 Uncharacterized protein n=1 Tax=Exidia glandulosa HHB12029 TaxID=1314781 RepID=A0A166B3K5_EXIGL
+DATA	>UniRef50_A0A820JGL3 Uncharacterized protein (Fragment) n=2 Tax=Adineta steineri TaxID=433720 RepID=A0A820JGL3_9BILA
+DATA	>UniRef50_A0A7S3HCS8 Uncharacterized protein (Fragment) n=1 Tax=Spumella elongata TaxID=89044 RepID=A0A7S3HCS8_9STRA
+DATA	>UniRef50_A0ABQ4CRH6 Uncharacterized protein n=2 Tax=Asanoa siamensis TaxID=926357 RepID=A0ABQ4CRH6_9ACTN
+DATA	>UniRef50_UPI0035B38B44 hypothetical protein n=1 Tax=Hydrogenophaga sp. TaxID=1904254 RepID=UPI0035B38B44
+DATA	>UniRef50_A0A660L7F0 Uncharacterized protein n=1 Tax=Solirubrobacter pauli TaxID=166793 RepID=A0A660L7F0_9ACTN
+DATA	>UniRef50_A0A4P9WPR3 Uncharacterized protein n=1 Tax=Blyttiomyces helicus TaxID=388810 RepID=A0A4P9WPR3_9FUNG
+DATA	>UniRef50_A0A5E4BHT8 Uncharacterized protein n=1 Tax=Marmota monax TaxID=9995 RepID=A0A5E4BHT8_MARMO
+DATA	>UniRef50_A0A8R7Q845 Uncharacterized protein n=2 Tax=Triticum urartu TaxID=4572 RepID=A0A8R7Q845_TRIUA
+DATA	>UniRef50_UPI0021CC2777 uncharacterized protein LOC127057263 n=1 Tax=Gopherus flavomarginatus TaxID=286002 RepID=UPI0021CC2777
+DATA	>UniRef50_A0A9Q3ETC1 Chromo domain-containing protein n=4 Tax=Austropuccinia psidii MF-1 TaxID=1389203 RepID=A0A9Q3ETC1_9BASI
+DATA	>UniRef50_A0A518ITQ2 Uncharacterized protein n=7 Tax=Planctomycetia TaxID=203683 RepID=A0A518ITQ2_9BACT
+DATA	>UniRef50_A0ABW9A3A0 Uncharacterized protein n=1 Tax=Herbaspirillum lusitanum TaxID=213312 RepID=A0ABW9A3A0_9BURK
+DATA	>UniRef50_U3KPL9 XLR/SYCP3/FAM9 domain-containing protein n=4 Tax=Oryctolagus cuniculus TaxID=9986 RepID=U3KPL9_RABIT
+DATA	>UniRef50_UPI0013D47116 hypothetical protein n=1 Tax=Halorussus sp. MSC15.2 TaxID=2283638 RepID=UPI0013D47116
+DATA	>UniRef50_UPI0038BA7A49 TetR/AcrR family transcriptional regulator n=2 Tax=Burkholderiaceae TaxID=119060 RepID=UPI0038BA7A49
+DATA	>UniRef50_UPI0034E9834E DNA/RNA non-specific endonuclease n=1 Tax=Conchiformibius steedae TaxID=153493 RepID=UPI0034E9834E
+DATA	>UniRef50_A0AB38BLP3 Uncharacterized protein n=4 Tax=Bacteria TaxID=2 RepID=A0AB38BLP3_9LACT
+DATA	>UniRef50_A0A7Y0DVN5 Thioester dehydrase n=8 Tax=Pseudoalteromonas TaxID=53246 RepID=A0A7Y0DVN5_9GAMM
+DATA	>UniRef50_A0A1G2HPD3 Uncharacterized protein n=1 Tax=Candidatus Staskawiczbacteria bacterium RIFCSPHIGHO2_01_FULL_39_25 TaxID=1802202 RepID=A0A1G2HPD3_9BACT
+DATA	>UniRef50_UPI0015C37BDC 2OG-Fe oxygenase n=1 Tax=Lasiodiplodia theobromae TaxID=45133 RepID=UPI0015C37BDC
+DATA	>UniRef50_UPI00112B347D hypothetical protein n=2 Tax=unclassified Mesorhizobium TaxID=325217 RepID=UPI00112B347D
+DATA	>UniRef50_A0AB37URW4 AAA domain-containing protein n=43 Tax=Cyanophyceae TaxID=3028117 RepID=A0AB37URW4_9CYAN
+DATA	>UniRef50_A0A1H5W0I1 Uncharacterized protein n=8 Tax=Thermomonosporaceae TaxID=2012 RepID=A0A1H5W0I1_9ACTN
+DATA	>UniRef50_UPI000AB384EE chlorhexidine efflux transporter n=1 Tax=Haemophilus TaxID=724 RepID=UPI000AB384EE
+DATA	>UniRef50_A0A7S3T0W0 Uncharacterized protein (Fragment) n=1 Tax=Strombidinopsis acuminata TaxID=141414 RepID=A0A7S3T0W0_9SPIT
+DATA	>UniRef50_UPI0006E68149 hypothetical protein n=1 Tax=Variovorax paradoxus TaxID=34073 RepID=UPI0006E68149
+DATA	>UniRef50_UPI002898B46C hypothetical protein n=1 Tax=Chryseobacterium sp. TaxID=1871047 RepID=UPI002898B46C
+DATA	>UniRef50_UPI00397F25BB hypothetical protein n=1 Tax=Salmonella sp. s54925 TaxID=3159674 RepID=UPI00397F25BB
+DATA	>UniRef50_A0A7S3WMY6 RRM domain-containing protein (Fragment) n=1 Tax=Emiliania huxleyi TaxID=2903 RepID=A0A7S3WMY6_EMIHU
+DATA	>UniRef50_A0A6H5IPB8 Reverse transcriptase domain-containing protein n=2 Tax=Trichogramma TaxID=7490 RepID=A0A6H5IPB8_9HYME
+DATA	>UniRef50_UPI001AEE96B1 hypothetical protein n=1 Tax=Mesorhizobium sp. M4B.F.Ca.ET.214.01.1.1 TaxID=2563955 RepID=UPI001AEE96B1
+DATA	>UniRef50_A0A6G1LH97 BTB domain-containing protein n=2 Tax=Teratosphaeria TaxID=237584 RepID=A0A6G1LH97_9PEZI
+DATA	>UniRef50_UPI0037907703 hypothetical protein n=1 Tax=Kitasatospora sp. NPDC050543 TaxID=3364054 RepID=UPI0037907703
+DATA	>UniRef50_A0ABD0M5B2 Secreted protein n=1 Tax=Batillaria attramentaria TaxID=370345 RepID=A0ABD0M5B2_9CAEN
+DATA	>UniRef50_UPI0005ED9ECD uncharacterized protein LOC105449469 n=1 Tax=Wasmannia auropunctata TaxID=64793 RepID=UPI0005ED9ECD
+DATA	>UniRef50_A0A6J4JSN6 Uncharacterized protein (Fragment) n=1 Tax=uncultured Craurococcus sp. TaxID=1135998 RepID=A0A6J4JSN6_9PROT
+DATA	>UniRef50_A0A7T3RF56 Class I mannose-6-phosphate isomerase n=7 Tax=Treponema TaxID=157 RepID=A0A7T3RF56_9SPIR
+DATA	>UniRef50_I0JYR9 Nitrogen fixation protein n=65 Tax=Pseudomonadati TaxID=3379134 RepID=I0JYR9_METFB
+DATA	>UniRef50_A0ABN2AJH5 Methyltransferase domain-containing protein n=3 Tax=Nocardioides humi TaxID=449461 RepID=A0ABN2AJH5_9ACTN
+DATA	>UniRef50_A0A0D9YSH8 Uncharacterized protein n=1 Tax=Oryza glumipatula TaxID=40148 RepID=A0A0D9YSH8_9ORYZ
+DATA	>UniRef50_A0A672K530 Phospholipase DDHD2-like n=2 Tax=Cyprininae TaxID=2743694 RepID=A0A672K530_SINGR
+DATA	>UniRef50_UPI0013AB71E0 serine/threonine-protein kinase n=1 Tax=Streptomyces sp. SID5910 TaxID=2690312 RepID=UPI0013AB71E0
+DATA	>UniRef50_A0A7W4Z9H1 Uncharacterized protein n=1 Tax=Microbulbifer rhizosphaerae TaxID=1562603 RepID=A0A7W4Z9H1_9GAMM
+DATA	>UniRef50_UPI00307C980F glycoside hydrolase family 19 protein n=1 Tax=Rodentibacter pneumotropicus TaxID=758 RepID=UPI00307C980F
+DATA	>UniRef50_UPI0019349B60 hypothetical protein n=3 Tax=unclassified Serratia (in: enterobacteria) TaxID=2647522 RepID=UPI0019349B60
+DATA	>UniRef50_G4XTG5 Variant surface antigen (Fragment) n=7 Tax=Plasmodium chabaudi chabaudi TaxID=31271 RepID=G4XTG5_PLACU
+DATA	>UniRef50_A0AAE0LIV7 Uncharacterized protein (Fragment) n=1 Tax=Cymbomonas tetramitiformis TaxID=36881 RepID=A0AAE0LIV7_9CHLO
+DATA	>UniRef50_A0ABD5XVI9 Uncharacterized protein n=1 Tax=Halobaculum litoreum TaxID=3031998 RepID=A0ABD5XVI9_9EURY
+DATA	>UniRef50_UPI00077A3D1B uncharacterized protein LOC107346153 n=1 Tax=Acropora digitifera TaxID=70779 RepID=UPI00077A3D1B
+DATA	>UniRef50_UPI00234F334C uncharacterized protein LOC128551574 n=1 Tax=Mercenaria mercenaria TaxID=6596 RepID=UPI00234F334C
+DATA	>UniRef50_A0A9W6JEC7 Bacterioferritin-associated ferredoxin n=1 Tax=Ancylobacter dichloromethanicus TaxID=518825 RepID=A0A9W6JEC7_9HYPH
+DATA	>UniRef50_UPI003F953A31 HNH endonuclease n=1 Tax=Rhizobium johnstonii TaxID=3019933 RepID=UPI003F953A31
+DATA	>UniRef50_A0A7S3LPD7 Vacuolar protein sorting-associated protein 13 DH-like domain-containing protein (Fragment) n=1 Tax=Aplanochytrium stocchinoi TaxID=215587 RepID=A0A7S3LPD7_9STRA
+DATA	>UniRef50_UPI003AF16D0C GNAT family N-acetyltransferase n=1 Tax=Glutamicibacter endophyticus TaxID=1522174 RepID=UPI003AF16D0C
+DATA	>UniRef50_UPI0009934ADE hypothetical protein n=1 Tax=Enterobacter kobei TaxID=208224 RepID=UPI0009934ADE
+DATA	>UniRef50_A0ABT8KQN0 Crp/Fnr family transcriptional regulator n=1 Tax=Splendidivirga corallicola TaxID=3051826 RepID=A0ABT8KQN0_9BACT
+DATA	>UniRef50_UPI00033D930F WXG100 family type VII secretion target n=1 Tax=Roseburia sp. AM59-24XD TaxID=2293138 RepID=UPI00033D930F
+DATA	>UniRef50_A0AAD8RRS2 CCHC-type domain-containing protein n=2 Tax=Lolium multiflorum TaxID=4521 RepID=A0AAD8RRS2_LOLMU
+DATA	>UniRef50_A0ABD5KZC6 Uncharacterized protein n=9 Tax=Priestia TaxID=2800373 RepID=A0ABD5KZC6_PRIAR
+DATA	>UniRef50_UPI00036F61BB hypothetical protein n=1 Tax=Kribbella catacumbae TaxID=460086 RepID=UPI00036F61BB
+DATA	>UniRef50_A0A7S1ZZR8 Alcohol-forming fatty acyl-CoA reductase (Fragment) n=2 Tax=Eupodiscales TaxID=33838 RepID=A0A7S1ZZR8_TRICV
+DATA	>UniRef50_A0A1A9VAV1 Uncharacterized protein n=1 Tax=Glossina austeni TaxID=7395 RepID=A0A1A9VAV1_GLOAU
+DATA	>UniRef50_A0A0A1UAN6 Uncharacterized protein n=1 Tax=Entamoeba invadens IP1 TaxID=370355 RepID=A0A0A1UAN6_ENTIV
+DATA	>UniRef50_UPI003C2B1EF2 hypothetical protein n=1 Tax=Pseudomonas solani TaxID=2731552 RepID=UPI003C2B1EF2
+DATA	>UniRef50_A0AA36GIS2 Uncharacterized protein n=1 Tax=Cylicocyclus nassatus TaxID=53992 RepID=A0AA36GIS2_CYLNA
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_0
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_1
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_2
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_3
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_4
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_5
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_6
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_7
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_8
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_9
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_10
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_11
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_12
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_13
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_14
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_15
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_16
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_17
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_18
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_19
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_20
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_21
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_22
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_23
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_24
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_25
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_26
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_27
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_28
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_29
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_30
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_31
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_32
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_33
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_34
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_35
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_36
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_37
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_38
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_39
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_40
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_41
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_42
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_43
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_44
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_45
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_46
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_47
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_48
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_49
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_50
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_51
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_52
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_53
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_54
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_55
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_56
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_57
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_58
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_59
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_60
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_61
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_62
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_63
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_64
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_65
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_66
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_67
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_68
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_69
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_70
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_71
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_72
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_73
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_74
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_75
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_76
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_77
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_78
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_79
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_80
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_81
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_82
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_83
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_84
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_85
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_86
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_87
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_88
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_89
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_90
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_91
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_92
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_93
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_94
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_95
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_96
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_97
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_98
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_99
+PATH	>UniRef50_UPI001D04E48D uncharacterized protein n=1 Tax=Bacidia gigantensis TaxID=2732470 RepID=UPI001D04E48D_step_100
